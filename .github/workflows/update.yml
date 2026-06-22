@@ -1,0 +1,32 @@
+name: Frissítés – Ferencváros naptár
+
+on:
+  schedule:
+    - cron: "0 6 * * 1"
+  workflow_dispatch:
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Kód letöltése
+        uses: actions/checkout@v4
+
+      - name: Python beállítása
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Függőségek telepítése
+        run: pip install requests beautifulsoup4
+
+      - name: ICS generálása
+        run: python generate.py
+
+      - name: Változások feltöltése
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add docs/ferencvaros.ics
+          git diff --cached --quiet || git commit -m "Naptár frissítve: $(date '+%Y-%m-%d')"
+          git push
