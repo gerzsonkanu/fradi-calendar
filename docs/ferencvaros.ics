@@ -1,2378 +1,353 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:www.maak-agenda.nl
-METHOD:PUBLISH
+PRODID:-//Ferencvárosi TC 2026/27//HU
 CALSCALE:GREGORIAN
-X-MICROSOFT-CALSCALE:GREGORIAN
+METHOD:PUBLISH
 X-WR-CALNAME:Ferencvárosi TC 2026/27
-X-WR-CALDESC:Games Ferencvarosi
-X-PUBLISHED-TTL:PT6H
-BEGIN:VEVENT
-UID:6a397866dd587
-DTSTART:20150702T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20150702T194500Z
-SUMMARY:Go Ahead Eagles - Ferencvarosi [EL] (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20160223T101520Z
-LAST-MODIFIED:20160223T101520Z
-END:VEVENT
-BEGIN:VEVENT
-UID:6a397866dd780
-DTSTART:20150709T183000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20150709T201500Z
-SUMMARY:Ferencvarosi - Go Ahead Eagles [EL] (4-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20160223T101432Z
-LAST-MODIFIED:20160223T101455Z
-END:VEVENT
-BEGIN:VEVENT
-UID:Gtu3y2yr9ZvVgTiVIKv1ArXfGQBlYIZfkWdNwTkf@maak-agenda.nl
-DTSTART:20170629T164500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20170629T183000Z
-SUMMARY:Ferencvarosi - FK Jelgava [EL] (2-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20170622T000335Z
-LAST-MODIFIED:20170703T155729Z
-END:VEVENT
-BEGIN:VEVENT
-UID:e8XVfCBuhuDteF7Gkza3muvh5wbOObHUYyK77PDN@maak-agenda.nl
-DTSTART:20170706T153000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20170706T171500Z
-SUMMARY:FK Jelgava - Ferencvarosi [EL] (0-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20170622T000337Z
-LAST-MODIFIED:20170707T030006Z
-END:VEVENT
-BEGIN:VEVENT
-UID:GsyQ9dA3ZuVeg9pXcXN3TsKLbaD3F0tTXkMIvYmU@maak-agenda.nl
-DTSTART:20170713T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20170713T204500Z
-SUMMARY:Ferencvarosi - FC Midtjylland [EL] (2-4)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20170722T030007Z
-LAST-MODIFIED:20170722T030007Z
-END:VEVENT
-BEGIN:VEVENT
-UID:aEpB4xhTqLkAgxY1xlFWx3Wduyz26QfpRlu8UTDu@maak-agenda.nl
-DTSTART:20170720T170000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20170720T184500Z
-SUMMARY:FC Midtjylland - Ferencvarosi [EL] (3-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20170722T030008Z
-LAST-MODIFIED:20170722T030008Z
-END:VEVENT
-BEGIN:VEVENT
-UID:zuWCtoJO90xjyu1K9mtPMRgPtLFM1o9nzx6qQ3Xb@maak-agenda.nl
-DTSTART:20180712T170000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20180712T184500Z
-SUMMARY:Ferencvarosi - M. Tel Aviv [EL] (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20180621T004151Z
-LAST-MODIFIED:20200308T124352Z
-END:VEVENT
-BEGIN:VEVENT
-UID:dVY264PKdYuKiyJ1YKId6DsBs9Eroz2AvJfZH3Tn@maak-agenda.nl
-DTSTART:20180719T170000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20180719T184500Z
-SUMMARY:M. Tel Aviv - Ferencvarosi [EL] (1-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20180621T004151Z
-LAST-MODIFIED:20200308T124352Z
-END:VEVENT
-BEGIN:VEVENT
-UID:ITuaEPC8JLt4ZNcXwtfADiCDQlBxktEe3ktABnya@maak-agenda.nl
-DTSTART:20190710T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20190710T194500Z
-SUMMARY:Ferencvarosi - PFC Ludogorets Razgrad [CL] (2-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20190620T004058Z
-LAST-MODIFIED:20190718T004209Z
-END:VEVENT
-BEGIN:VEVENT
-UID:2jGYxdEM8WShK90ffdHRJx0fdtD3E2ODFFGH7nEy@maak-agenda.nl
-DTSTART:20190717T173000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20190717T191500Z
-SUMMARY:PFC Ludogorets Razgrad - Ferencvarosi [CL] (2-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20190620T004058Z
-LAST-MODIFIED:20190719T004212Z
-END:VEVENT
-BEGIN:VEVENT
-UID:nrLK29gXCs5JXrfDEpbysNbN3p6303cKaoy2Nx34@maak-agenda.nl
-DTSTART:20190724T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20190724T194500Z
-SUMMARY:Ferencvarosi - Valletta FC [CL] (3-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20190810T202046Z
-LAST-MODIFIED:20190810T202046Z
-END:VEVENT
-BEGIN:VEVENT
-UID:2tbiJjwMun3MpuHEBS9dfwpOHKCWNRir66RAGSih@maak-agenda.nl
-DTSTART:20190730T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20190730T194500Z
-SUMMARY:Valletta FC - Ferencvarosi [CL] (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20190810T202046Z
-LAST-MODIFIED:20190810T202046Z
-END:VEVENT
-BEGIN:VEVENT
-UID:uoSumTZF9kEBxpiXe2wXgATzpsQFqJcQQTs9Vqai@maak-agenda.nl
-DTSTART:20190806T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20190806T194500Z
-SUMMARY:Dinamo Zagreb - Ferencvarosi [CL] (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20190810T202047Z
-LAST-MODIFIED:20190810T202047Z
-END:VEVENT
-BEGIN:VEVENT
-UID:y6u0SUwgx02G8FfzbspWJ9yZYAqC5PBTDGbgxZCG@maak-agenda.nl
-DTSTART:20190813T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20190813T194500Z
-SUMMARY:Ferencvarosi - Dinamo Zagreb [CL] (0-4)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20190810T202047Z
-LAST-MODIFIED:20190817T141716Z
-END:VEVENT
-BEGIN:VEVENT
-UID:AdVpyPniNswg5J4QP1YmkJbYUab0oqBKFYaHV295@maak-agenda.nl
-DTSTART:20190822T170000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20190822T184500Z
-SUMMARY:FK Suduva - Ferencvarosi [EL] (0-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20190817T141959Z
-LAST-MODIFIED:20190827T024027Z
-END:VEVENT
-BEGIN:VEVENT
-UID:oGN9ciK5XgxfzHjKw51Y2l2aFfUKtMfF0GWOhX7i@maak-agenda.nl
-DTSTART:20190829T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20190829T194500Z
-SUMMARY:Ferencvarosi - FK Suduva [EL] (4-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20190817T142000Z
-LAST-MODIFIED:20190830T071707Z
-END:VEVENT
-BEGIN:VEVENT
-UID:8WRW8q3YNamTjhATINCtVtaSpSjK57lhIX7FRgxR@maak-agenda.nl
-DTSTART:20190919T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20190919T204500Z
-SUMMARY:Espanyol - Ferencvarosi [EL] (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20190830T164530Z
-LAST-MODIFIED:20190924T024022Z
-END:VEVENT
-BEGIN:VEVENT
-UID:kg2E29pz1X3V7u9Z76GxDkb3GjRm2CL0yEWUmttU@maak-agenda.nl
-DTSTART:20191003T165500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20191003T184000Z
-SUMMARY:Ferencvarosi - PFC Ludogorets Razgrad [EL] (0-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20190830T164530Z
-LAST-MODIFIED:20191008T024030Z
-END:VEVENT
-BEGIN:VEVENT
-UID:tuvunyZa2mMcpZrmFngmeC7uTxzYiMrGBXmXuNF9@maak-agenda.nl
-DTSTART:20191024T165500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20191024T184000Z
-SUMMARY:PFC CSKA Moskou - Ferencvarosi [EL] (0-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20190830T164531Z
-LAST-MODIFIED:20191101T075351Z
-END:VEVENT
-BEGIN:VEVENT
-UID:lFFhDYtKtqRJBcaZ15p9AJfaKPeGoXp9DljfmYoc@maak-agenda.nl
-DTSTART:20191107T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20191107T214500Z
-SUMMARY:Ferencvarosi - PFC CSKA Moskou [EL] (0-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20190830T164531Z
-LAST-MODIFIED:20191112T024029Z
-END:VEVENT
-BEGIN:VEVENT
-UID:L4BhrBFNgF0YqejUW1w9orAWSm97y55ambLkIhC8@maak-agenda.nl
-DTSTART:20191128T175500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20191128T194000Z
-SUMMARY:Ferencvarosi - Espanyol [EL] (2-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20190830T164531Z
-LAST-MODIFIED:20191203T024028Z
-END:VEVENT
-BEGIN:VEVENT
-UID:JBWVlce2jPtfcwqNaQnaLpXDxEHqHhLPfk8Sst5O@maak-agenda.nl
-DTSTART:20191212T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20191212T214500Z
-SUMMARY:PFC Ludogorets Razgrad - Ferencvarosi [EL] (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20190830T164532Z
-LAST-MODIFIED:20191217T024030Z
-END:VEVENT
-BEGIN:VEVENT
-UID:50hNPe27jn9hH3i4g2V4tHrvzmqS4hVELHIqWaG1@maak-agenda.nl
-DTSTART:20200819T170000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20200819T184500Z
-SUMMARY:Ferencvarosi - Djurgardens IF [CL] (2-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20200823T125501Z
-LAST-MODIFIED:20200823T125501Z
-END:VEVENT
-BEGIN:VEVENT
-UID:YIJY4CbxREcuQTLaUnzzD4SYL2X5zapQbRweSiQw@maak-agenda.nl
-DTSTART:20200826T184500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20200826T203000Z
-SUMMARY:Celtic - Ferencvarosi [CL] (1-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20200823T125501Z
-LAST-MODIFIED:20200828T024014Z
-END:VEVENT
-BEGIN:VEVENT
-UID:jsoAaijS6GUH1Vzcw4DFgVXWsjmKrMKwcCVTkhu4@maak-agenda.nl
-DTSTART:20200916T170000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20200916T184500Z
-SUMMARY:Ferencvarosi - Dinamo Zagreb [CL] (2-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20200904T061813Z
-LAST-MODIFIED:20200918T024017Z
-END:VEVENT
-BEGIN:VEVENT
-UID:SbFspv2VRlzNmLODPQUkJ2utd9G8Iw5btVmiYGlV@maak-agenda.nl
-DTSTART:20200923T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20200923T204500Z
-SUMMARY:Molde FK - Ferencvarosi [CL] (3-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20200918T024017Z
-LAST-MODIFIED:20200925T024016Z
-END:VEVENT
-BEGIN:VEVENT
-UID:FdLWrDqRkaacYQg3MNVVs4Qsrm6lvZtAfxzjoinj@maak-agenda.nl
-DTSTART:20200929T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20200929T204500Z
-SUMMARY:Ferencvarosi - Molde FK [CL] (0-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20200918T024017Z
-LAST-MODIFIED:20201002T024023Z
-END:VEVENT
-BEGIN:VEVENT
-UID:LKD329flc5XVX0H5RUSZAxvtn2l5daBQrvPKohbb@maak-agenda.nl
-DTSTART:20201020T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20201020T204500Z
-SUMMARY:FC Barcelona - Ferencvarosi [CL] (5-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20201005T053009Z
-LAST-MODIFIED:20201023T024020Z
-END:VEVENT
-BEGIN:VEVENT
-UID:VkqM09PTYOMJCB6AtxSJ28VhBxWd737zFD5dR2hq@maak-agenda.nl
-DTSTART:20201028T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20201028T214500Z
-SUMMARY:Ferencvarosi - Dynamo Kyiv [CL] (2-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20201005T053009Z
-LAST-MODIFIED:20201030T024046Z
-END:VEVENT
-BEGIN:VEVENT
-UID:LRPhw8dlXffFrA5Qneq3qqDGiaoOetf5sysslOYT@maak-agenda.nl
-DTSTART:20201104T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20201104T214500Z
-SUMMARY:Ferencvarosi - Juventus [CL] (1-4)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20201005T053010Z
-LAST-MODIFIED:20201106T024017Z
-END:VEVENT
-BEGIN:VEVENT
-UID:6QMHU86TgidlFP4IoxLwop0dWPB066gNPJKi4ggx@maak-agenda.nl
-DTSTART:20201124T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20201124T214500Z
-SUMMARY:Juventus - Ferencvarosi [CL] (2-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20201005T053010Z
-LAST-MODIFIED:20201128T024012Z
-END:VEVENT
-BEGIN:VEVENT
-UID:tsBv5grYomKXb0VpgkJD7CscVGRM0hBm3tz9oJz0@maak-agenda.nl
-DTSTART:20201202T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20201202T214500Z
-SUMMARY:Ferencvarosi - FC Barcelona [CL] (0-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20201005T053010Z
-LAST-MODIFIED:20201203T031019Z
-END:VEVENT
-BEGIN:VEVENT
-UID:33eDDK80rL977xJ1jQC0beJlgFtmdqoRZigMLIdT@maak-agenda.nl
-DTSTART:20201208T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20201208T214500Z
-SUMMARY:Dynamo Kyiv - Ferencvarosi [CL] (1-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20201005T053011Z
-LAST-MODIFIED:20201210T031015Z
-END:VEVENT
-BEGIN:VEVENT
-UID:dPNbZRER3UkpebOqlZTTI3mgFKz99Keb9ibSyVJ4@maak-agenda.nl
-DTSTART:20210706T160000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20210706T174500Z
-SUMMARY:Ferencvarosi - FC Prishtina [CL] (3-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20210707T124100Z
-LAST-MODIFIED:20210707T124100Z
-END:VEVENT
-BEGIN:VEVENT
-UID:eNNIwEnfyXKnbniWLADijyDlZ0y1r0IVtRl2FlBr@maak-agenda.nl
-DTSTART:20210713T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20210713T194500Z
-SUMMARY:FC Prishtina - Ferencvarosi [CL] (1-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20210707T124100Z
-LAST-MODIFIED:20210729T154404Z
-END:VEVENT
-BEGIN:VEVENT
-UID:3rfM0yv0UtO7CZPZtIoYAcgJt0WEEqTLlr5NymJ2@maak-agenda.nl
-DTSTART:20210720T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20210720T194500Z
-SUMMARY:Ferencvarosi - Zalgiris Vilnius [CL] (2-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20210716T031104Z
-LAST-MODIFIED:20210723T031103Z
-END:VEVENT
-BEGIN:VEVENT
-UID:QRVh3GhTs8QNkLcIH4fNamSE0k5iA0dW35P3bS5Y@maak-agenda.nl
-DTSTART:20210727T170000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20210727T184500Z
-SUMMARY:Zalgiris Vilnius - Ferencvarosi [CL] (1-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20210716T031104Z
-LAST-MODIFIED:20210729T154405Z
-END:VEVENT
-BEGIN:VEVENT
-UID:M7iq3wECgvJlBY2axmEkNU9TkKdaGAIyTGhIEbqu@maak-agenda.nl
-DTSTART:20210804T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20210804T194500Z
-SUMMARY:Ferencvarosi - SK Slavia Praha [CL] (2-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20210729T154405Z
-LAST-MODIFIED:20210811T062551Z
-END:VEVENT
-BEGIN:VEVENT
-UID:PGSVirZu2PwsUyWd59xxTECFUqeUepu90SHjaz8q@maak-agenda.nl
-DTSTART:20210810T170000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20210810T184500Z
-SUMMARY:SK Slavia Praha - Ferencvarosi [CL] (1-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20210729T154405Z
-LAST-MODIFIED:20210812T031022Z
-END:VEVENT
-BEGIN:VEVENT
-UID:IdqWCk3RrVQ0ghspikcvUrnLoKA4CYbiSALniVLw@maak-agenda.nl
-DTSTART:20210818T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20210818T204500Z
-SUMMARY:BSC Young Boys - Ferencvarosi [CL] (3-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20210812T031022Z
-LAST-MODIFIED:20210819T031009Z
-END:VEVENT
-BEGIN:VEVENT
-UID:JCASqm0DJtuuYWe6lyGvcGvkPBpcxul0MslS0ySJ@maak-agenda.nl
-DTSTART:20210824T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20210824T204500Z
-SUMMARY:Ferencvarosi - BSC Young Boys [CL] (2-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20210812T031022Z
-LAST-MODIFIED:20210826T031008Z
-END:VEVENT
-BEGIN:VEVENT
-UID:UAnJojKcXdwAz9o1DJ2CpdstLzAZoft7KjvHvsWo@maak-agenda.nl
-DTSTART:20210916T164500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20210916T183000Z
-SUMMARY:Bayer Leverkusen - Ferencvarosi [EL] (2-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20210830T190251Z
-LAST-MODIFIED:20210919T031012Z
-END:VEVENT
-BEGIN:VEVENT
-UID:l2PacnKEb1KgAnPbYZhYs7W2qqr6LgKqHHuU5zli@maak-agenda.nl
-DTSTART:20210930T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20210930T204500Z
-SUMMARY:Ferencvarosi - Real Betis [EL] (1-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20210830T190251Z
-LAST-MODIFIED:20211003T031035Z
-END:VEVENT
-BEGIN:VEVENT
-UID:oToUd8cYLZKootoJIIhXwn6dBkk1exNbHILjjIcA@maak-agenda.nl
-DTSTART:20211019T143000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20211019T161500Z
-SUMMARY:Celtic - Ferencvarosi [EL] (2-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20210830T190252Z
-LAST-MODIFIED:20211021T031017Z
-END:VEVENT
-BEGIN:VEVENT
-UID:9bC5L4tnfA8wN7Z6WHt5cxMIdBf1rEoZxdRx6T2P@maak-agenda.nl
-DTSTART:20211104T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20211104T214500Z
-SUMMARY:Ferencvarosi - Celtic [EL] (2-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20210830T190252Z
-LAST-MODIFIED:20211107T031012Z
-END:VEVENT
-BEGIN:VEVENT
-UID:veJ8ejD4lVm5EwzcAwnGL24UawjoxSKsTedFvUZv@maak-agenda.nl
-DTSTART:20211125T174500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20211125T193000Z
-SUMMARY:Real Betis - Ferencvarosi [EL] (2-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20210830T190252Z
-LAST-MODIFIED:20211128T031008Z
-END:VEVENT
-BEGIN:VEVENT
-UID:W68rXTQMsjUY1r2eNk3zLGsdq6L9EKd3AT4kjVjY@maak-agenda.nl
-DTSTART:20211209T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20211209T214500Z
-SUMMARY:Ferencvarosi - Bayer Leverkusen [EL] (1-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20210830T190253Z
-LAST-MODIFIED:20211212T031012Z
-END:VEVENT
-BEGIN:VEVENT
-UID:MV9H91p27Nuh0am5efqGxzeoO1NdAe32hrNUedph@maak-agenda.nl
-DTSTART:20220706T140000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20220706T154500Z
-SUMMARY:Tobol Kostanai - Ferencvarosi [CL] (0-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20220616T182123Z
-LAST-MODIFIED:20220720T093741Z
-END:VEVENT
-BEGIN:VEVENT
-UID:W7xIByuCSN6twxPqKjG6ATvlMZXnQsSN7SZvxvRb@maak-agenda.nl
-DTSTART:20220713T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20220713T194500Z
-SUMMARY:Ferencvarosi - Tobol Kostanai [CL] (5-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20220616T182123Z
-LAST-MODIFIED:20220720T093741Z
-END:VEVENT
-BEGIN:VEVENT
-UID:2wEbfHRpEMAAt77WhTP8f8eDuWof7fmNmjZOG4Hg@maak-agenda.nl
-DTSTART:20220720T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20220720T194500Z
-SUMMARY:Ferencvarosi - SK Slovan Bratislava [CL] (1-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20220720T093741Z
-LAST-MODIFIED:20220729T153422Z
-END:VEVENT
-BEGIN:VEVENT
-UID:wXJKDrIT6HfLjbiqGnT7FSyiziQWsuIUj1JSMv8E@maak-agenda.nl
-DTSTART:20220727T183000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20220727T201500Z
-SUMMARY:SK Slovan Bratislava - Ferencvarosi [CL] (1-4)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20220720T093741Z
-LAST-MODIFIED:20220729T153423Z
-END:VEVENT
-BEGIN:VEVENT
-UID:1oX9LYBe9SBm5ZgJS3ArO36NszA7wqVwYy6uwBTw@maak-agenda.nl
-DTSTART:20220803T160000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20220803T174500Z
-SUMMARY:FK Qarabag - Ferencvarosi [CL] (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20220729T153424Z
-LAST-MODIFIED:20220811T160402Z
-END:VEVENT
-BEGIN:VEVENT
-UID:xyIDxF9EhoBphETMsZkwbcVUIB4PevFpzY3JLF6X@maak-agenda.nl
-DTSTART:20220809T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20220809T194500Z
-SUMMARY:Ferencvarosi - FK Qarabag [CL] (1-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20220729T153423Z
-LAST-MODIFIED:20220811T160402Z
-END:VEVENT
-BEGIN:VEVENT
-UID:lpCSzUD9DcjwxsNo1mezMCUBZAKmpW6LqhjojGU6@maak-agenda.nl
-DTSTART:20220818T163000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20220818T181500Z
-SUMMARY:Ferencvarosi - Shamrock Rovers [EL] (4-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20220811T160429Z
-LAST-MODIFIED:20220821T031010Z
-END:VEVENT
-BEGIN:VEVENT
-UID:yPjgn7m3R6dYXFPOoxJBKTLjc8RkPdI0OTFG0FGS@maak-agenda.nl
-DTSTART:20220825T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20220825T204500Z
-SUMMARY:Shamrock Rovers - Ferencvarosi [EL] (1-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20220811T160429Z
-LAST-MODIFIED:20220828T061746Z
-END:VEVENT
-BEGIN:VEVENT
-UID:vE4EeX011naQIEcHN2f2jgWUfB62rZOcFDsR8KE9@maak-agenda.nl
-DTSTART:20220908T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20220908T204500Z
-SUMMARY:Ferencvarosi - Trabzonspor [EL] (3-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20220828T061746Z
-LAST-MODIFIED:20220911T031015Z
-END:VEVENT
-BEGIN:VEVENT
-UID:CbZDOJiVYLFo91ovroHfTZMORvfCnrSDs8GE9gty@maak-agenda.nl
-DTSTART:20220915T164500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20220915T183000Z
-SUMMARY:AS Monaco - Ferencvarosi [EL] (0-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20220828T061747Z
-LAST-MODIFIED:20220918T031012Z
-END:VEVENT
-BEGIN:VEVENT
-UID:Nfbk887mgVAcLzSRbUiJYJvEFpv51YbeIYpwIEqp@maak-agenda.nl
-DTSTART:20221006T164500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20221006T183000Z
-SUMMARY:Red Star Belgrade - Ferencvarosi [EL] (4-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20220828T061747Z
-LAST-MODIFIED:20221009T031015Z
-END:VEVENT
-BEGIN:VEVENT
-UID:H8iSGsIT3fIMBSIyQeyGN6BVgWHLvVhGYBDVN98l@maak-agenda.nl
-DTSTART:20221013T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20221013T204500Z
-SUMMARY:Ferencvarosi - Red Star Belgrade [EL] (2-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20220828T061748Z
-LAST-MODIFIED:20221122T072245Z
-END:VEVENT
-BEGIN:VEVENT
-UID:Swde4Hg0vt3Yp2WpmDjVbUQWGI4ceKH8nQaldXsD@maak-agenda.nl
-DTSTART:20221027T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20221027T204500Z
-SUMMARY:Ferencvarosi - AS Monaco [EL] (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20220828T061748Z
-LAST-MODIFIED:20221122T072245Z
-END:VEVENT
-BEGIN:VEVENT
-UID:SZbjRVNjLDjSXXO1hJCmG3fw3EsOcrGLjUzHdRN6@maak-agenda.nl
-DTSTART:20221103T174500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20221103T193000Z
-SUMMARY:Trabzonspor - Ferencvarosi [EL] (1-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20220828T061748Z
-LAST-MODIFIED:20221122T072246Z
-END:VEVENT
-BEGIN:VEVENT
-UID:AZDf7ChOxmzp59HoeDCkzK4YKMz0GzCyQWt5Q6Pi@maak-agenda.nl
-DTSTART:20230309T174500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20230309T193000Z
-SUMMARY:Bayer Leverkusen - Ferencvarosi [EL] (2-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20230226T031016Z
-LAST-MODIFIED:20230312T031013Z
-END:VEVENT
-BEGIN:VEVENT
-UID:fLEfZS6GwPwzYvlIieWTQQOJGPxKmfhs7Rznm3r6@maak-agenda.nl
-DTSTART:20230316T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20230316T214500Z
-SUMMARY:Ferencvarosi - Bayer Leverkusen [EL] (0-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20230226T031017Z
-LAST-MODIFIED:20230319T031013Z
-END:VEVENT
-BEGIN:VEVENT
-UID:kiKq1TyQzTuEFTnyPxL2CHDRpvxS6qrokcJdpVSe@maak-agenda.nl
-DTSTART:20230711T184500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20230711T203000Z
-SUMMARY:Klaksvik - Ferencvarosi [CL] (0-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20230702T074957Z
-LAST-MODIFIED:20230715T031008Z
-END:VEVENT
-BEGIN:VEVENT
-UID:hN4m7BFGuNLvGf7NsW8OkZWeXlVfC6r4X14JNp5w@maak-agenda.nl
-DTSTART:20230719T160000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20230719T174500Z
-SUMMARY:Ferencvarosi - Klaksvik [CL] (0-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20230702T074958Z
-LAST-MODIFIED:20230720T031010Z
-END:VEVENT
-BEGIN:VEVENT
-UID:DvpYRjCqfplWe8eX1Uwm1PpsAjNvD3cGo7wI1WYM@maak-agenda.nl
-DTSTART:20230727T170000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20230727T184500Z
-SUMMARY:Ferencvarosi - Shamrock Rovers [Conf] (4-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20230724T121353Z
-LAST-MODIFIED:20230728T031058Z
-END:VEVENT
-BEGIN:VEVENT
-UID:uOYiK2PfpfSrG2q5FjCDhb6L32sbiRkf77MvQ79Z@maak-agenda.nl
-DTSTART:20230803T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20230803T204500Z
-SUMMARY:Shamrock Rovers - Ferencvarosi [Conf] (0-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20230724T121353Z
-LAST-MODIFIED:20230806T031028Z
-END:VEVENT
-BEGIN:VEVENT
-UID:uSRcJHMJSKQ9rcuVXF89ISsloLm5rXmD9npCqs8n@maak-agenda.nl
-DTSTART:20230810T173000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20230810T191500Z
-SUMMARY:Hamrun Spartans - Ferencvarosi [Conf] (1-6)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20230806T031029Z
-LAST-MODIFIED:20230811T031042Z
-END:VEVENT
-BEGIN:VEVENT
-UID:I5vac6HtZ4OeznxeZdSOwo6Hv2jBInjkI72GwqMV@maak-agenda.nl
-DTSTART:20230817T170000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20230817T184500Z
-SUMMARY:Ferencvarosi - Hamrun Spartans [Conf] (2-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20230806T031029Z
-LAST-MODIFIED:20230818T031043Z
-END:VEVENT
-BEGIN:VEVENT
-UID:BwYzPMC1zRo3wYehGhQaO4DdKhvzmhpe85v8TFCj@maak-agenda.nl
-DTSTART:20230824T160000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20230824T174500Z
-SUMMARY:Zalgiris Vilnius - Ferencvarosi [Conf] (0-4)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20230827T102629Z
-LAST-MODIFIED:20230827T102629Z
-END:VEVENT
-BEGIN:VEVENT
-UID:aF0yro8ja0cKv8Sz0uVWr7Vcx0PM32n0DwMaTjN6@maak-agenda.nl
-DTSTART:20230831T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20230831T194500Z
-SUMMARY:Ferencvarosi - Zalgiris Vilnius [Conf] (3-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20230827T102630Z
-LAST-MODIFIED:20230901T031044Z
-END:VEVENT
-BEGIN:VEVENT
-UID:NzPluyopEwE2sKlOcti4890qQH2s6SDTIQ0BpB3b@maak-agenda.nl
-DTSTART:20230921T164500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20230921T183000Z
-SUMMARY:Ferencvarosi - FK Cukaricki Stankom [Conf] (3-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20230904T122747Z
-LAST-MODIFIED:20230922T031043Z
-END:VEVENT
-BEGIN:VEVENT
-UID:gJCxmtqCKCn1NxOvEwdR1UQy6SonYRuWpf7NyvpL@maak-agenda.nl
-DTSTART:20231005T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20231005T204500Z
-SUMMARY:Fiorentina - Ferencvarosi [Conf] (2-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20230904T122747Z
-LAST-MODIFIED:20231006T031043Z
-END:VEVENT
-BEGIN:VEVENT
-UID:4tkiJaXQqLtUKVypKVM8wXTNmqSYXDAMAafC1dSp@maak-agenda.nl
-DTSTART:20231026T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20231026T204500Z
-SUMMARY:KRC Genk - Ferencvarosi [Conf] (0-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20230904T122747Z
-LAST-MODIFIED:20231027T031044Z
-END:VEVENT
-BEGIN:VEVENT
-UID:kXYdPfAE4tXNCMPXY5njUyicQ89tH32Cpq1HL9iH@maak-agenda.nl
-DTSTART:20231109T174500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20231109T193000Z
-SUMMARY:Ferencvarosi - KRC Genk [Conf] (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20230904T122747Z
-LAST-MODIFIED:20231110T031042Z
-END:VEVENT
-BEGIN:VEVENT
-UID:IrMu7oYrZJizvnZp1jqD5FXMo7qoAEIHxIAkSkX7@maak-agenda.nl
-DTSTART:20231130T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20231130T214500Z
-SUMMARY:FK Cukaricki Stankom - Ferencvarosi [Conf] (1-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20230904T122747Z
-LAST-MODIFIED:20231201T031057Z
-END:VEVENT
-BEGIN:VEVENT
-UID:KXLRvq7c0oO5yQhGH1UL5uwtaktut7pQVHtxg0Kx@maak-agenda.nl
-DTSTART:20231214T174500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20231214T193000Z
-SUMMARY:Ferencvarosi - Fiorentina [Conf] (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20230904T122747Z
-LAST-MODIFIED:20231215T031045Z
-END:VEVENT
-BEGIN:VEVENT
-UID:gGpVhZkquueV49qrze8M4a5t3VvpdUvEnpI5d0mH@maak-agenda.nl
-DTSTART:20240215T174500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20240215T193000Z
-SUMMARY:Olympiakos Piraeus - Ferencvarosi [Conf] (1-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20231221T162329Z
-LAST-MODIFIED:20240216T031042Z
-END:VEVENT
-BEGIN:VEVENT
-UID:7CSJhFxA9pskakVmHKoH95GShjBFgOPmoTtZR10K@maak-agenda.nl
-DTSTART:20240222T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20240222T214500Z
-SUMMARY:Ferencvarosi - Olympiakos Piraeus [Conf] (0-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20231221T162329Z
-LAST-MODIFIED:20240223T031052Z
-END:VEVENT
-BEGIN:VEVENT
-UID:5D4NqO5r20IaapYjjoyIriJ0uRJadqEbKc3gysTz@maak-agenda.nl
-DTSTART:20240723T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20240723T194500Z
-SUMMARY:Ferencvarosi - The New Saints [CL] (5-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20240717T031139Z
-LAST-MODIFIED:20240724T183357Z
-END:VEVENT
-BEGIN:VEVENT
-UID:t1vrIFB7O5Bu2ZV3JCKVgGOsvNwMqcsQ1MFqkyaM@maak-agenda.nl
-DTSTART:20240730T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20240730T194500Z
-SUMMARY:The New Saints - Ferencvarosi [CL] (1-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20240717T031139Z
-LAST-MODIFIED:20240731T031225Z
-END:VEVENT
-BEGIN:VEVENT
-UID:11sBhCBqHzX7jKk2DFBVvfUYeLCfjKastPC2Za53@maak-agenda.nl
-DTSTART:20240806T171500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20240806T190000Z
-SUMMARY:FC Midtjylland - Ferencvarosi [CL] (2-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20240801T031037Z
-LAST-MODIFIED:20240807T031249Z
-END:VEVENT
-BEGIN:VEVENT
-UID:wvZVWftDMZDemZ9hrMHnISjzXCRNc93y6VBaTNmc@maak-agenda.nl
-DTSTART:20240813T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20240813T194500Z
-SUMMARY:Ferencvarosi - FC Midtjylland [CL] (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20240801T031037Z
-LAST-MODIFIED:20240814T031235Z
-END:VEVENT
-BEGIN:VEVENT
-UID:iyzGHxN2BpuRDZhzpsbGTSjaeRpI7IDNRC47Ex7Z@maak-agenda.nl
-DTSTART:20240822T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20240822T204500Z
-SUMMARY:Ferencvarosi - Borac Banja Luka [EL] (0-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20240817T031256Z
-LAST-MODIFIED:20240824T031257Z
-END:VEVENT
-BEGIN:VEVENT
-UID:A7QAs8Yzz07if5LuYOlraD9I7KKrHO57YnX43Klv@maak-agenda.nl
-DTSTART:20240829T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20240829T204500Z
-SUMMARY:Borac Banja Luka - Ferencvarosi [EL] (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20240817T031256Z
-LAST-MODIFIED:20240903T031307Z
-END:VEVENT
-BEGIN:VEVENT
-UID:BKp4QGaLknUwkjOoUNqernlr8VsAluSwg2sfR8Sd@maak-agenda.nl
-DTSTART:20240925T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20240925T204500Z
-SUMMARY:RSC Anderlecht - Ferencvarosi [EL] (2-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20240901T031044Z
-LAST-MODIFIED:20241003T031346Z
-END:VEVENT
-BEGIN:VEVENT
-UID:Sor7b0ByrKHkkXw2EhI7fYaUJOHkBc2S0IRJRxEA@maak-agenda.nl
-DTSTART:20241003T164500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20241003T183000Z
-SUMMARY:Ferencvarosi - Tottenham Hotspur [EL] (1-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20240901T031045Z
-LAST-MODIFIED:20241007T031405Z
-END:VEVENT
-BEGIN:VEVENT
-UID:tygcjdRaD89TX58vDHT71zsEzq67KuNO8JJ2Cdg4@maak-agenda.nl
-DTSTART:20241024T164500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20241024T183000Z
-SUMMARY:Ferencvarosi - OGC Nice [EL] (1-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20240901T031046Z
-LAST-MODIFIED:20241027T031259Z
-END:VEVENT
-BEGIN:VEVENT
-UID:r6xacKNYHY0GTgYvG3yDIJxTVq9l1dQhbCMXFWj1@maak-agenda.nl
-DTSTART:20241107T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20241107T214500Z
-SUMMARY:Dynamo Kyiv - Ferencvarosi [EL] (0-4)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20240901T031047Z
-LAST-MODIFIED:20241110T031305Z
-END:VEVENT
-BEGIN:VEVENT
-UID:iuNFBKh7i7BQdgzvokVe7PKcPpS1zGrRuTzmjrYj@maak-agenda.nl
-DTSTART:20241128T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20241128T214500Z
-SUMMARY:Ferencvarosi - Malmö FF [EL] (4-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20240901T031048Z
-LAST-MODIFIED:20241129T031247Z
-END:VEVENT
-BEGIN:VEVENT
-UID:igduhcjVaCapfrkTTLvF6uyLoDQZ3Ow8yKaGbdJV@maak-agenda.nl
-DTSTART:20241212T174500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20241212T193000Z
-SUMMARY:PAOK Salonika - Ferencvarosi [EL] (5-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20240901T031049Z
-LAST-MODIFIED:20241213T031217Z
-END:VEVENT
-BEGIN:VEVENT
-UID:pMLRzPe2dzqZldzU6GzchtDfHejrKqvrhNPN8blu@maak-agenda.nl
-DTSTART:20250123T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250123T214500Z
-SUMMARY:Eintracht Frankfurt - Ferencvarosi [EL] (2-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20240901T031050Z
-LAST-MODIFIED:20250125T031235Z
-END:VEVENT
-BEGIN:VEVENT
-UID:GUYXzrnYF85nD3g9mb1RKKqpaIJDJq3hB33qUEoM@maak-agenda.nl
-DTSTART:20250130T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250130T214500Z
-SUMMARY:Ferencvarosi - AZ [EL] (4-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20240901T031050Z
-LAST-MODIFIED:20250131T031213Z
-END:VEVENT
-BEGIN:VEVENT
-UID:t9OlkVGUasn14lDvuHKRG5tOM9VyH2HDrWaAl5AR@maak-agenda.nl
-DTSTART:20250213T174500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250213T193000Z
-SUMMARY:Ferencvarosi - FC Viktoria Plzen [EL] (1-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250202T031028Z
-LAST-MODIFIED:20250214T031223Z
-END:VEVENT
-BEGIN:VEVENT
-UID:LUCCBBG28bVFOSieaUeRAxLJDsqQHvAUEgCmKi4u@maak-agenda.nl
-DTSTART:20250220T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250220T214500Z
-SUMMARY:FC Viktoria Plzen - Ferencvarosi [EL] (3-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250202T031029Z
-LAST-MODIFIED:20250221T031223Z
-END:VEVENT
-BEGIN:VEVENT
-UID:OJd4PE6QVEQyqFoSvv96EaQC0lqHT6Q704BjE6fB@maak-agenda.nl
-DTSTART:20250722T160000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250722T174500Z
-SUMMARY:Noah - Ferencvarosi [CL] (1-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250808T031039Z
-LAST-MODIFIED:20250910T062130Z
-END:VEVENT
-BEGIN:VEVENT
-UID:QdR3nNoGuvVCXvQNqT8iR3lQS8snlBrcuZgAXgmb@maak-agenda.nl
-DTSTART:20250722T160000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250722T174500Z
-SUMMARY:Artsakh - Ferencvarosi [CL] (1-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250719T031202Z
-LAST-MODIFIED:20250723T031152Z
-END:VEVENT
-BEGIN:VEVENT
-UID:OdNxl84KS3liExbyWTuURkS4ZZm3IicVJxPKnZHP@maak-agenda.nl
-DTSTART:20250726T181500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250726T200000Z
-SUMMARY:MTK - Ferencvarosi (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192341Z
-LAST-MODIFIED:20260614T192341Z
-END:VEVENT
-BEGIN:VEVENT
-UID:OuP5pREhspJYTdHVcPleB2G2VsZJ0eQ7GwSqPHiO@maak-agenda.nl
-DTSTART:20250730T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250730T194500Z
-SUMMARY:Ferencvarosi - Noah [CL] (4-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250725T031030Z
-LAST-MODIFIED:20250910T062130Z
-END:VEVENT
-BEGIN:VEVENT
-UID:kYXbbIvOzG1zYXg7Z0dvhUZ6wM6pHmVG7jRInljw@maak-agenda.nl
-DTSTART:20250730T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250730T194500Z
-SUMMARY:Ferencvarosi - Artsakh [CL] (4-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250719T031203Z
-LAST-MODIFIED:20250731T031211Z
-END:VEVENT
-BEGIN:VEVENT
-UID:37e64AXctZIufpdiEThu3hTXz9G7a34s3v7VyQpM@maak-agenda.nl
-DTSTART:20250802T181500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250802T200000Z
-SUMMARY:Ferencvarosi - Kazincbarcika (3-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192342Z
-LAST-MODIFIED:20260614T192342Z
-END:VEVENT
-BEGIN:VEVENT
-UID:NTKEFqxCcmUsyLm3YdeLtvdr46SNuBpK2Atk5H1T@maak-agenda.nl
-DTSTART:20250806T173000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250806T191500Z
-SUMMARY:PFC Ludogorets Razgrad - Ferencvarosi [CL] (0-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250805T031211Z
-LAST-MODIFIED:20250807T031212Z
-END:VEVENT
-BEGIN:VEVENT
-UID:3zeqf3xk9jipi07ntVw2alCQq86TstN9rSkCUPxb@maak-agenda.nl
-DTSTART:20250809T181500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250809T200000Z
-SUMMARY:Nyíregyháza Spartacus - Ferencvarosi (1-4)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192341Z
-LAST-MODIFIED:20260614T192341Z
-END:VEVENT
-BEGIN:VEVENT
-UID:S1dWsoZhYauY5QYzqu8uTIp6Qq4UkWEjEYrRY8dp@maak-agenda.nl
-DTSTART:20250812T181500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250812T200000Z
-SUMMARY:Ferencvarosi - PFC Ludogorets Razgrad [CL] (3-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250805T031211Z
-LAST-MODIFIED:20250813T031208Z
-END:VEVENT
-BEGIN:VEVENT
-UID:UpJx2xfyVAgkdNKSV5B2h3LVydrtxjYOG5ua6yTp@maak-agenda.nl
-DTSTART:20250816T181500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250816T200000Z
-SUMMARY:Ferencvarosi - Puskas (1-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192342Z
-LAST-MODIFIED:20260614T192342Z
-END:VEVENT
-BEGIN:VEVENT
-UID:zdyTmL8Sy9x0bJQel90sCd5QCRafwFk6PZAM9uXj@maak-agenda.nl
-DTSTART:20250819T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250819T204500Z
-SUMMARY:Ferencvarosi - FK Qarabag [CL] (1-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250815T031206Z
-LAST-MODIFIED:20250821T031215Z
-END:VEVENT
-BEGIN:VEVENT
-UID:lNXbAmbY3e4uT9UVaBFPgovELcNNAqMzcPEaqsP9@maak-agenda.nl
-DTSTART:20250827T164500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250827T183000Z
-SUMMARY:FK Qarabag - Ferencvarosi [CL] (2-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250815T031207Z
-LAST-MODIFIED:20250828T031228Z
-END:VEVENT
-BEGIN:VEVENT
-UID:cksPJJRvkXqBKGRgEUjn6q8nUC099rKwVM2otmc1@maak-agenda.nl
-DTSTART:20250831T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250831T194500Z
-SUMMARY:Debreceni VSC - Ferencvarosi (0-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192338Z
-LAST-MODIFIED:20260614T192338Z
-END:VEVENT
-BEGIN:VEVENT
-UID:aHhHUpWPibJyGNYX1tCJyWQdU02kcA59TtubKEqz@maak-agenda.nl
-DTSTART:20250919T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250919T194500Z
-SUMMARY:Ferencvarosi - Diósgyőr (2-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192338Z
-LAST-MODIFIED:20260614T192338Z
-END:VEVENT
-BEGIN:VEVENT
-UID:NUaJYM3LzuNsi1xpIq7cBc85hP2CDgzmxoDzUvW1@maak-agenda.nl
-DTSTART:20250925T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250925T204500Z
-SUMMARY:Ferencvarosi - FC Viktoria Plzen [EL] (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250830T031205Z
-LAST-MODIFIED:20250926T031245Z
-END:VEVENT
-BEGIN:VEVENT
-UID:022HVFY7Kb9DTy7uHEG84JQ6J6MoU5YYjFmUKkvG@maak-agenda.nl
-DTSTART:20250928T160000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20250928T174500Z
-SUMMARY:Győri ETO - Ferencvarosi (0-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192338Z
-LAST-MODIFIED:20260614T192338Z
-END:VEVENT
-BEGIN:VEVENT
-UID:Jd2QiAYsBpLAH2lBYP6KRsBTGxNGYOQXGK3iIrZs@maak-agenda.nl
-DTSTART:20251002T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20251002T204500Z
-SUMMARY:KRC Genk - Ferencvarosi [EL] (0-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250830T031205Z
-LAST-MODIFIED:20251003T031205Z
-END:VEVENT
-BEGIN:VEVENT
-UID:Y9MyLSiPHGJJRKh0sCQl11ysecXWEDt0BYreNnpO@maak-agenda.nl
-DTSTART:20251005T143000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20251005T161500Z
-SUMMARY:Ferencvarosi - Paksi SE (2-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192338Z
-LAST-MODIFIED:20260614T192338Z
-END:VEVENT
-BEGIN:VEVENT
-UID:GTkCVbgnGzELVjX94S1420Y2DrKtn4KCGwTgSGPT@maak-agenda.nl
-DTSTART:20251019T160000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20251019T174500Z
-SUMMARY:Ujpest - Ferencvarosi (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192338Z
-LAST-MODIFIED:20260614T192338Z
-END:VEVENT
-BEGIN:VEVENT
-UID:FuibjA4aQtN5lwjsff0dhH08jVahBd6y6zt3gFLs@maak-agenda.nl
-DTSTART:20251023T164500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20251023T183000Z
-SUMMARY:RB Salzburg - Ferencvarosi [EL] (2-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250830T031202Z
-LAST-MODIFIED:20251024T031219Z
-END:VEVENT
-BEGIN:VEVENT
-UID:PFnEp4i2ppF8h7qkquzDjogFuRjGy4JSXbUd6OjF@maak-agenda.nl
-DTSTART:20251026T163000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20251026T181500Z
-SUMMARY:Ferencvarosi - Zalaegerszegi TE (1-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192338Z
-LAST-MODIFIED:20260614T192338Z
-END:VEVENT
-BEGIN:VEVENT
-UID:yjZ0lYCQ0wSOaE4cD9KFwPbuEy09CYmfq8X22s3o@maak-agenda.nl
-DTSTART:20251101T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20251101T204500Z
-SUMMARY:Ferencvarosi - MTK (4-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192339Z
-LAST-MODIFIED:20260614T192339Z
-END:VEVENT
-BEGIN:VEVENT
-UID:75Ic8MZSHt1TOVWGVqRJr9aFYfIc6lQd7utOm726@maak-agenda.nl
-DTSTART:20251106T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20251106T214500Z
-SUMMARY:Ferencvarosi - PFC Ludogorets Razgrad [EL] (3-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250830T031205Z
-LAST-MODIFIED:20251107T031224Z
-END:VEVENT
-BEGIN:VEVENT
-UID:h6CxkpByAkjPSY8U9jyc7PYxCGItfOtjtjDHeu57@maak-agenda.nl
-DTSTART:20251109T141500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20251109T160000Z
-SUMMARY:Kazincbarcika - Ferencvarosi (1-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192339Z
-LAST-MODIFIED:20260614T192339Z
-END:VEVENT
-BEGIN:VEVENT
-UID:dJp5gbTCeqflmVWvUzL1TEFGDucYWk6AxFeg9SUU@maak-agenda.nl
-DTSTART:20251122T183000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20251122T201500Z
-SUMMARY:Ferencvarosi - Nyíregyháza Spartacus (1-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192339Z
-LAST-MODIFIED:20260614T192339Z
-END:VEVENT
-BEGIN:VEVENT
-UID:8dwrYiKAJ4C4BtUi5rR1Ys5rthmpNQ3yhLkmFRbX@maak-agenda.nl
-DTSTART:20251127T174500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20251127T193000Z
-SUMMARY:Fenerbahçe - Ferencvarosi [EL] (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250830T031204Z
-LAST-MODIFIED:20251128T031021Z
-END:VEVENT
-BEGIN:VEVENT
-UID:AhhIdFnWcxjwWwcGEYFciywoFF4txEYr42oUHClq@maak-agenda.nl
-DTSTART:20251130T183000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20251130T201500Z
-SUMMARY:Puskas - Ferencvarosi (1-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192339Z
-LAST-MODIFIED:20260614T192339Z
-END:VEVENT
-BEGIN:VEVENT
-UID:zZTVWTNss6lr9x3IUnZ6US5VYz5BFaU56bcVPwFB@maak-agenda.nl
-DTSTART:20251204T170000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20251204T184500Z
-SUMMARY:Várda SE - Ferencvarosi (0-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192342Z
-LAST-MODIFIED:20260614T192342Z
-END:VEVENT
-BEGIN:VEVENT
-UID:yAsQaz1MujRPkVSNXrbNOT883AzXC5H2qNACVT3Z@maak-agenda.nl
-DTSTART:20251207T160000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20251207T174500Z
-SUMMARY:Ferencvarosi - Várda SE (3-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192339Z
-LAST-MODIFIED:20260614T192339Z
-END:VEVENT
-BEGIN:VEVENT
-UID:G686fnQb459PtHvrUjmmHuyJaXlQTZNo083Airv7@maak-agenda.nl
-DTSTART:20251211T174500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20251211T193000Z
-SUMMARY:Ferencvarosi - Rangers [EL] (2-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250830T031205Z
-LAST-MODIFIED:20251212T031022Z
-END:VEVENT
-BEGIN:VEVENT
-UID:iqjXbxbYMu3LgMe7v3q0ju3ebba4k947BVJXvLDR@maak-agenda.nl
-DTSTART:20251214T134500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20251214T153000Z
-SUMMARY:Ferencvarosi - Debreceni VSC (0-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192339Z
-LAST-MODIFIED:20260614T192339Z
-END:VEVENT
-BEGIN:VEVENT
-UID:VyJ3ls67isvg5mmKXBDGJ8jvOf8kVOu0Zwbrj8Vn@maak-agenda.nl
-DTSTART:20251219T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20251219T204500Z
-SUMMARY:Diósgyőr - Ferencvarosi (0-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192339Z
-LAST-MODIFIED:20260614T192339Z
-END:VEVENT
-BEGIN:VEVENT
-UID:lJaIpkjzFnccLacrVtW8wqSJmWhmir8ruCF3KwRo@maak-agenda.nl
-DTSTART:20260122T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260122T214500Z
-SUMMARY:Ferencvarosi - Panathinaikos [EL] (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250830T031205Z
-LAST-MODIFIED:20260123T031150Z
-END:VEVENT
-BEGIN:VEVENT
-UID:harXGTEt4fI2Zf0miTclYTpt5nbpABdSIZCS0Nyg@maak-agenda.nl
-DTSTART:20260125T171500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260125T190000Z
-SUMMARY:Ferencvarosi - Győri ETO (1-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192339Z
-LAST-MODIFIED:20260614T192339Z
-END:VEVENT
-BEGIN:VEVENT
-UID:C0OjdsN9iot0rYQyFm8vimTie23iBjEJ2G1rLX4L@maak-agenda.nl
-DTSTART:20260129T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260129T214500Z
-SUMMARY:Nottingham Forest - Ferencvarosi [EL] (4-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20250830T031206Z
-LAST-MODIFIED:20260130T031019Z
-END:VEVENT
-BEGIN:VEVENT
-UID:d9WkvJjcDAvYa3hmvCph1DUQBbb33JyeDiDmy9Dx@maak-agenda.nl
-DTSTART:20260201T141500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260201T160000Z
-SUMMARY:Paksi SE - Ferencvarosi (0-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192340Z
-LAST-MODIFIED:20260614T192340Z
-END:VEVENT
-BEGIN:VEVENT
-UID:WQBc7oNeOGOjCulu7hF3pmUwHBb5v6SPYU6T1lq2@maak-agenda.nl
-DTSTART:20260207T160000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260207T174500Z
-SUMMARY:Ferencvarosi - Ujpest (3-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192341Z
-LAST-MODIFIED:20260614T192341Z
-END:VEVENT
-BEGIN:VEVENT
-UID:ilOdhS9bZEBd4Q5BqVnxWOlmGcQVG609xmdVCGzO@maak-agenda.nl
-DTSTART:20260214T160000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260214T174500Z
-SUMMARY:Zalaegerszegi TE - Ferencvarosi (3-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192340Z
-LAST-MODIFIED:20260614T192340Z
-END:VEVENT
-BEGIN:VEVENT
-UID:MvgJ2v6JePxg9f64qDulAxJw09ANnfSF1eJ7U9Gp@maak-agenda.nl
-DTSTART:20260219T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260219T214500Z
-SUMMARY:PFC Ludogorets Razgrad - Ferencvarosi [EL] (2-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260131T031145Z
-LAST-MODIFIED:20260220T031202Z
-END:VEVENT
-BEGIN:VEVENT
-UID:kJmX8NCOmB2fNsyYFD9ZUEIfdhD1c3YXlTvdZz4D@maak-agenda.nl
-DTSTART:20260223T190000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260223T204500Z
-SUMMARY:MTK - Ferencvarosi (1-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192340Z
-LAST-MODIFIED:20260614T192340Z
-END:VEVENT
-BEGIN:VEVENT
-UID:HnYGsptsOMZ5NWdKqyvBqE7Lida9xQ2K49RuxDnZ@maak-agenda.nl
-DTSTART:20260226T174500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260226T193000Z
-SUMMARY:Ferencvarosi - PFC Ludogorets Razgrad [EL] (2-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260131T031144Z
-LAST-MODIFIED:20260227T031018Z
-END:VEVENT
-BEGIN:VEVENT
-UID:PaXwqT3TvYlcr4SgSFQFXSEPuYERJNYgKmXwpxKj@maak-agenda.nl
-DTSTART:20260301T174500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260301T193000Z
-SUMMARY:Ferencvarosi - Kazincbarcika (2-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192339Z
-LAST-MODIFIED:20260614T192339Z
-END:VEVENT
-BEGIN:VEVENT
-UID:3nsQy7D2J0tgEipTtbUkOkdZY1NTfVG3j96Fe499@maak-agenda.nl
-DTSTART:20260308T173000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260308T191500Z
-SUMMARY:Nyíregyháza Spartacus - Ferencvarosi (1-3)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192340Z
-LAST-MODIFIED:20260614T192340Z
-END:VEVENT
-BEGIN:VEVENT
-UID:bT6ZQFpku7aMb9t6u4MXZgEGARRauKq3bn29GKui@maak-agenda.nl
-DTSTART:20260312T200000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260312T214500Z
-SUMMARY:Ferencvarosi - Sporting Braga [EL] (2-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260228T031151Z
-LAST-MODIFIED:20260313T031237Z
-END:VEVENT
-BEGIN:VEVENT
-UID:CvqenTbRlgRJ1Z0LNgSWTeRwVX7sVQdIe4FhxBnU@maak-agenda.nl
-DTSTART:20260318T153000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260318T171500Z
-SUMMARY:Sporting Braga - Ferencvarosi [EL] (4-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260228T031151Z
-LAST-MODIFIED:20260319T031231Z
-END:VEVENT
-BEGIN:VEVENT
-UID:7gzHybpudpoeIpmlUf7SZwQ68hlxNUYitW8yG3VM@maak-agenda.nl
-DTSTART:20260322T181500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260322T200000Z
-SUMMARY:Várda SE - Ferencvarosi (1-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192341Z
-LAST-MODIFIED:20260614T192341Z
-END:VEVENT
-BEGIN:VEVENT
-UID:S3gZ0MTXC8fL1oCwHXZwagjEnTxHH0TY2f1kIyM9@maak-agenda.nl
-DTSTART:20260405T150000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260405T164500Z
-SUMMARY:Debreceni VSC - Ferencvarosi (0-2)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192340Z
-LAST-MODIFIED:20260614T192340Z
-END:VEVENT
-BEGIN:VEVENT
-UID:JNlP49LM0BqJ3rldU1AKNOkDdcZNy9xepjVwjjPe@maak-agenda.nl
-DTSTART:20260410T180000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260410T194500Z
-SUMMARY:Ferencvarosi - Diósgyőr (3-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192340Z
-LAST-MODIFIED:20260614T192340Z
-END:VEVENT
-BEGIN:VEVENT
-UID:2Y8GaU4g7D8aNNenS2Dwg7rPfCn30ioYs7XiSOpr@maak-agenda.nl
-DTSTART:20260414T164500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260414T183000Z
-SUMMARY:Ferencvarosi - Puskas (2-1)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192340Z
-LAST-MODIFIED:20260614T192340Z
-END:VEVENT
-BEGIN:VEVENT
-UID:Z9wsbKY6cHwQOoX7NVogHtufl87oiGTZg8QoVe2g@maak-agenda.nl
-DTSTART:20260419T173000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260419T191500Z
-SUMMARY:Győri ETO - Ferencvarosi (1-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192341Z
-LAST-MODIFIED:20260614T192341Z
-END:VEVENT
-BEGIN:VEVENT
-UID:aCmquuzY0TCeUVtyUU03cPaPK8PKCWcDSU6AzTJn@maak-agenda.nl
-DTSTART:20260426T150000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260426T164500Z
-SUMMARY:Ferencvarosi - Paksi SE (2-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192341Z
-LAST-MODIFIED:20260614T192341Z
-END:VEVENT
-BEGIN:VEVENT
-UID:0sMc8FfHtybqCJQO71E9VKjK6DMxcRAHlewjMQM3@maak-agenda.nl
-DTSTART:20260503T140000Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260503T154500Z
-SUMMARY:Ujpest - Ferencvarosi (0-5)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192341Z
-LAST-MODIFIED:20260614T192341Z
-END:VEVENT
-BEGIN:VEVENT
-UID:4MzcTpJn04xmWPQxtHPDRF8PAXfgdZt6228uScRG@maak-agenda.nl
-DTSTART:20260516T151500Z
-SEQUENCE:0
-TRANSP:OPAQUE
-STATUS:CONFIRMED
-DTEND:20260516T170000Z
-SUMMARY:Ferencvarosi - Zalaegerszegi TE (3-0)
-CLASS:PUBLIC
-DESCRIPTION:Calendar not up to date? Check https://fixtur.es/up-to-date?pat
- h=ferencvaros\n\nSupport Fixtur.es via Buy Me a Coffee https://buymeacoffe
- e.com/fixtures
-DTSTAMP:20260622T180110Z
-CREATED:20260614T192341Z
-LAST-MODIFIED:20260614T192341Z
+X-WR-TIMEZONE:Europe/Budapest
+BEGIN:VTIMEZONE
+TZID:Europe/Budapest
+BEGIN:STANDARD
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0100
+TZNAME:CET
+DTSTART:19701025T030000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=10
+END:STANDARD
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0100
+TZOFFSETTO:+0200
+TZNAME:CEST
+DTSTART:19700329T020000
+RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
+END:DAYLIGHT
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:fradi-2026-07-09-0@ftc
+DTSTART;TZID=Europe/Budapest:20260709T200000
+DTEND;TZID=Europe/Budapest:20260709T220000
+SUMMARY:🌍🏆FK Vojvodina – Ferencvárosi TC
+LOCATION:Novi Sad, Stadion Karadjordje
+DESCRIPTION:UEFA Európa Liga – 1. kör (1. mérkőzés)
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-07-16-1@ftc
+DTSTART;TZID=Europe/Budapest:20260716T201500
+DTEND;TZID=Europe/Budapest:20260716T221500
+SUMMARY:🌍🏆Ferencvárosi TC – FK Vojvodina
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:UEFA Európa Liga – 1. kör (2. mérkőzés)
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-07-23-2@ftc
+DTSTART;TZID=Europe/Budapest:20260723T200000
+DTEND;TZID=Europe/Budapest:20260723T220000
+SUMMARY:🌍🏆Ferencvárosi TC – UEFA EL
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:UEFA Európa Liga – 2. kör (1. mérkőzés)
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-07-25-3@ftc
+DTSTART;TZID=Europe/Budapest:20260725T180000
+DTEND;TZID=Europe/Budapest:20260725T200000
+SUMMARY:⚽️Paksi FC – Ferencvárosi TC
+LOCATION:Paks, Paksi FC Stadion
+DESCRIPTION:OTP Bank Liga, 1. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-07-30-4@ftc
+DTSTART;TZID=Europe/Budapest:20260730T200000
+DTEND;TZID=Europe/Budapest:20260730T220000
+SUMMARY:🌍🏆UEFA EL – Ferencvárosi TC
+LOCATION:
+DESCRIPTION:UEFA Európa Liga – 2. kör (2. mérkőzés)
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-08-01-5@ftc
+DTSTART;TZID=Europe/Budapest:20260801T180000
+DTEND;TZID=Europe/Budapest:20260801T200000
+SUMMARY:⚽️Ferencvárosi TC – Vasas FC
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 2. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-08-06-6@ftc
+DTSTART;TZID=Europe/Budapest:20260806T200000
+DTEND;TZID=Europe/Budapest:20260806T220000
+SUMMARY:🌍🏆Ferencvárosi TC – UEFA EL
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:UEFA Európa Liga – 3. kör (1. mérkőzés)
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-08-08-7@ftc
+DTSTART;TZID=Europe/Budapest:20260808T180000
+DTEND;TZID=Europe/Budapest:20260808T200000
+SUMMARY:⚽️ETO FC – Ferencvárosi TC
+LOCATION:Győr, ETO Stadion
+DESCRIPTION:OTP Bank Liga, 3. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-08-13-8@ftc
+DTSTART;TZID=Europe/Budapest:20260813T200000
+DTEND;TZID=Europe/Budapest:20260813T220000
+SUMMARY:🌍🏆UEFA EL – Ferencvárosi TC
+LOCATION:
+DESCRIPTION:UEFA Európa Liga – 3. kör (2. mérkőzés)
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-08-15-9@ftc
+DTSTART;TZID=Europe/Budapest:20260815T180000
+DTEND;TZID=Europe/Budapest:20260815T200000
+SUMMARY:⚽️ZTE FC – Ferencvárosi TC
+LOCATION:Zalaegerszeg, ZTE Aréna
+DESCRIPTION:OTP Bank Liga, 4. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-08-20-10@ftc
+DTSTART;TZID=Europe/Budapest:20260820T200000
+DTEND;TZID=Europe/Budapest:20260820T220000
+SUMMARY:🌍🏆Ferencvárosi TC – UEFA EL
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:UEFA Európa Liga – Playoff (1. mérkőzés)
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-08-22-11@ftc
+DTSTART;TZID=Europe/Budapest:20260822T180000
+DTEND;TZID=Europe/Budapest:20260822T200000
+SUMMARY:⚽️Ferencvárosi TC – Kispest–Honvéd FC
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 5. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-08-27-12@ftc
+DTSTART;TZID=Europe/Budapest:20260827T200000
+DTEND;TZID=Europe/Budapest:20260827T220000
+SUMMARY:🌍🏆UEFA EL – Ferencvárosi TC
+LOCATION:
+DESCRIPTION:UEFA Európa Liga – Playoff (2. mérkőzés)
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-08-29-13@ftc
+DTSTART;TZID=Europe/Budapest:20260829T180000
+DTEND;TZID=Europe/Budapest:20260829T200000
+SUMMARY:⚽️Puskás Akadémia FC – Ferencvárosi TC
+LOCATION:Felcsút, Pancho Aréna
+DESCRIPTION:OTP Bank Liga, 6. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-09-05-14@ftc
+DTSTART;TZID=Europe/Budapest:20260905T180000
+DTEND;TZID=Europe/Budapest:20260905T200000
+SUMMARY:⚽️Ferencvárosi TC – MTK Budapest
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 7. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-09-19-15@ftc
+DTSTART;TZID=Europe/Budapest:20260919T180000
+DTEND;TZID=Europe/Budapest:20260919T200000
+SUMMARY:⚽️Nyíregyháza Spartacus FC – Ferencvárosi TC
+LOCATION:Nyíregyháza, Városi Stadion
+DESCRIPTION:OTP Bank Liga, 8. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-10-10-16@ftc
+DTSTART;TZID=Europe/Budapest:20261010T180000
+DTEND;TZID=Europe/Budapest:20261010T200000
+SUMMARY:⚽️Ferencvárosi TC – Kisvárda Master Good
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 9. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-10-17-17@ftc
+DTSTART;TZID=Europe/Budapest:20261017T180000
+DTEND;TZID=Europe/Budapest:20261017T200000
+SUMMARY:⚽️Kisvárda Master Good – Ferencvárosi TC
+LOCATION:Kisvárda, Várkerti Stadion
+DESCRIPTION:OTP Bank Liga, 10. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-10-24-18@ftc
+DTSTART;TZID=Europe/Budapest:20261024T180000
+DTEND;TZID=Europe/Budapest:20261024T200000
+SUMMARY:⚽️Ferencvárosi TC – DVSC
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 11. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-10-31-19@ftc
+DTSTART;TZID=Europe/Budapest:20261031T180000
+DTEND;TZID=Europe/Budapest:20261031T200000
+SUMMARY:⚽️Ferencvárosi TC – Puskás Akadémia FC
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 12. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-11-07-20@ftc
+DTSTART;TZID=Europe/Budapest:20261107T180000
+DTEND;TZID=Europe/Budapest:20261107T200000
+SUMMARY:⚽️Vasas FC – Ferencvárosi TC
+LOCATION:Budapest, Illovszky Rudolf Stadion
+DESCRIPTION:OTP Bank Liga, 13. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-11-21-21@ftc
+DTSTART;TZID=Europe/Budapest:20261121T180000
+DTEND;TZID=Europe/Budapest:20261121T200000
+SUMMARY:⚽️Ferencvárosi TC – Nyíregyháza Spartacus FC
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 14. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-11-28-22@ftc
+DTSTART;TZID=Europe/Budapest:20261128T180000
+DTEND;TZID=Europe/Budapest:20261128T200000
+SUMMARY:⚽️MTK Budapest – Ferencvárosi TC
+LOCATION:Budapest, Új Hidegkuti Nándor Stadion
+DESCRIPTION:OTP Bank Liga, 15. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-12-05-23@ftc
+DTSTART;TZID=Europe/Budapest:20261205T180000
+DTEND;TZID=Europe/Budapest:20261205T200000
+SUMMARY:⚽️Ferencvárosi TC – ETO FC
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 16. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-12-12-24@ftc
+DTSTART;TZID=Europe/Budapest:20261212T180000
+DTEND;TZID=Europe/Budapest:20261212T200000
+SUMMARY:⚽️Kispest–Honvéd FC – Ferencvárosi TC
+LOCATION:Budapest, Bozsik Aréna
+DESCRIPTION:OTP Bank Liga, 17. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-12-19-25@ftc
+DTSTART;TZID=Europe/Budapest:20261219T180000
+DTEND;TZID=Europe/Budapest:20261219T200000
+SUMMARY:⚽️Újpest FC – Ferencvárosi TC
+LOCATION:Budapest, Szusza Ferenc Stadion
+DESCRIPTION:OTP Bank Liga, 18. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2027-01-30-26@ftc
+DTSTART;TZID=Europe/Budapest:20270130T180000
+DTEND;TZID=Europe/Budapest:20270130T200000
+SUMMARY:⚽️Ferencvárosi TC – ZTE FC
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 19. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2027-02-06-27@ftc
+DTSTART;TZID=Europe/Budapest:20270206T180000
+DTEND;TZID=Europe/Budapest:20270206T200000
+SUMMARY:⚽️DVSC – Ferencvárosi TC
+LOCATION:Debrecen, Nagyerdei Stadion
+DESCRIPTION:OTP Bank Liga, 20. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2027-02-13-28@ftc
+DTSTART;TZID=Europe/Budapest:20270213T180000
+DTEND;TZID=Europe/Budapest:20270213T200000
+SUMMARY:⚽️Ferencvárosi TC – Paksi FC
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 21. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2027-02-20-29@ftc
+DTSTART;TZID=Europe/Budapest:20270220T180000
+DTEND;TZID=Europe/Budapest:20270220T200000
+SUMMARY:⚽️MTK Budapest – Ferencvárosi TC
+LOCATION:Budapest, Új Hidegkuti Nándor Stadion
+DESCRIPTION:OTP Bank Liga, 22. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2027-02-27-30@ftc
+DTSTART;TZID=Europe/Budapest:20270227T180000
+DTEND;TZID=Europe/Budapest:20270227T200000
+SUMMARY:⚽️Paksi FC – Ferencvárosi TC
+LOCATION:Paks, Paksi FC Stadion
+DESCRIPTION:OTP Bank Liga, 23. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2027-03-06-31@ftc
+DTSTART;TZID=Europe/Budapest:20270306T180000
+DTEND;TZID=Europe/Budapest:20270306T200000
+SUMMARY:⚽️Ferencvárosi TC – Vasas FC
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 24. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2027-03-13-32@ftc
+DTSTART;TZID=Europe/Budapest:20270313T180000
+DTEND;TZID=Europe/Budapest:20270313T200000
+SUMMARY:⚽️ETO FC – Ferencvárosi TC
+LOCATION:Győr, ETO Stadion
+DESCRIPTION:OTP Bank Liga, 25. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2027-03-20-33@ftc
+DTSTART;TZID=Europe/Budapest:20270320T180000
+DTEND;TZID=Europe/Budapest:20270320T200000
+SUMMARY:⚽️ZTE FC – Ferencvárosi TC
+LOCATION:Zalaegerszeg, ZTE Aréna
+DESCRIPTION:OTP Bank Liga, 26. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2027-04-03-34@ftc
+DTSTART;TZID=Europe/Budapest:20270403T180000
+DTEND;TZID=Europe/Budapest:20270403T200000
+SUMMARY:⚽️Ferencvárosi TC – Újpest FC
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 27. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2027-04-10-35@ftc
+DTSTART;TZID=Europe/Budapest:20270410T180000
+DTEND;TZID=Europe/Budapest:20270410T200000
+SUMMARY:⚽️Puskás Akadémia FC – Ferencvárosi TC
+LOCATION:Felcsút, Pancho Aréna
+DESCRIPTION:OTP Bank Liga, 28. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2027-04-17-36@ftc
+DTSTART;TZID=Europe/Budapest:20270417T180000
+DTEND;TZID=Europe/Budapest:20270417T200000
+SUMMARY:⚽️Ferencvárosi TC – Kispest–Honvéd FC
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 29. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2027-04-24-37@ftc
+DTSTART;TZID=Europe/Budapest:20270424T180000
+DTEND;TZID=Europe/Budapest:20270424T200000
+SUMMARY:⚽️Nyíregyháza Spartacus FC – Ferencvárosi TC
+LOCATION:Nyíregyháza, Városi Stadion
+DESCRIPTION:OTP Bank Liga, 30. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2027-05-01-38@ftc
+DTSTART;TZID=Europe/Budapest:20270501T180000
+DTEND;TZID=Europe/Budapest:20270501T200000
+SUMMARY:⚽️Ferencvárosi TC – MTK Budapest
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 31. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2027-05-15-39@ftc
+DTSTART;TZID=Europe/Budapest:20270515T180000
+DTEND;TZID=Europe/Budapest:20270515T200000
+SUMMARY:⚽️Kisvárda Master Good – Ferencvárosi TC
+LOCATION:Kisvárda, Várkerti Stadion
+DESCRIPTION:OTP Bank Liga, 32. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2027-05-22-40@ftc
+DTSTART;TZID=Europe/Budapest:20270522T180000
+DTEND;TZID=Europe/Budapest:20270522T200000
+SUMMARY:⚽️Ferencvárosi TC – DVSC
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 33. forduló
 END:VEVENT
 END:VCALENDAR
