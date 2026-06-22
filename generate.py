@@ -4,121 +4,136 @@ import re
 import os
 
 OUTPUT_FILE = "docs/ferencvaros.ics"
-BASE_URL = "https://www.fradi.hu/labdarugas/elso-csapat/esemenyek?page={}"
+
+MONTH_MAP = {
+    "január": "01", "február": "02", "március": "03",
+    "április": "04", "május": "05", "június": "06",
+    "július": "07", "augusztus": "08", "szeptember": "09",
+    "október": "10", "november": "11", "december": "12"
+}
+
+def parse_date(text):
+    m = re.search(
+        r"(202\d)\.\s*(január|február|március|április|május|június|július|augusztus|szeptember|október|november|december)\s+(\d{1,2})\.",
+        text
+    )
+    if m:
+        year, month_hu, day = m.group(1), m.group(2), m.group(3).zfill(2)
+        return f"{year}-{MONTH_MAP[month_hu]}-{day}"
+    return None
+
+def parse_time(text):
+    m = re.search(r"\b(\d{1,2}):(\d{2})\b", text)
+    if m:
+        return f"{int(m.group(1)):02d}:{m.group(2)}"
+    return None
 
 def fetch_all_matches():
     matches = []
     page = 1
 
     while True:
-        url = BASE_URL.format(page)
-        print(f"Oldal lekérése: {url}")
+        url = f"https://www.fradi.hu/labdarugas/elso-csapat/esemenyek?page={page}"
+        print(f"Oldal: {url}")
         try:
             r = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
             soup = BeautifulSoup(r.text, "html.parser")
-
-            # Mérkőzés blokkok keresése
-            blocks = soup.select("div.event-list-item, div.match-item, article, div.esemenyek-item")
-            
-            # Ha nem találjuk a specifikus osztályt, próbáljuk másképp
-            if not blocks:
-                # Dátum + csapatnév + helyszín mintázat alapján
-                blocks = soup.find_all("div", class_=re.compile(r"event|match|meccs|sorso", re.I))
-
-            # Szöveg alapú kinyerés ha a fenti nem működik
-            text = soup.get_text("\n", strip=True)
+            text = soup.get_text("\n")
             lines = [l.strip() for l in text.split("\n") if l.strip()]
 
-            found_on_page = []
+            found = []
             i = 0
             while i < len(lines):
-                # Dátum keresése: "2026. július 9." vagy "2026. augusztus 1."
-                date_match = re.match(
-                    r"(202[67])\. (január|február|március|április|május|június|július|augusztus|szeptember|október|november|december)\s+(\d{1,2})\.",
-                    lines[i]
-                )
-                if date_match:
-                    year = date_match.group(1)
-                    month_hu = date_match.group(2)
-                    day = date_match.group(3).zfill(2)
+                date = parse_date(lines[i])
+                if date:
+                    # Az időpont ugyanabban a sorban vagy közvetlenül utána
+                    time = parse_time(lines[i])
                     
-                    month_map = {
-                        "január": "01", "február": "02", "március": "03",
-                        "április": "04", "május": "05", "június": "06",
-                        "július": "07", "augusztus": "08", "szeptember": "09",
-                        "október": "10", "november": "11", "december": "12"
-                    }
-                    month = month_map.get(month_hu, "01")
-                    date_str = f"{year}-{month}-{day}"
-
-                    # Időpont keresése a következő sorokban
-                    time_str = "18:00"
+                    # Következő sorokból kiszedünk mindent amit tudunk
                     competition = ""
                     location = ""
                     home = ""
                     away = ""
 
-                    for j in range(i, min(i + 10, len(lines))):
-                        # Időpont
-                        t = re.search(r"\b(\d{1,2}:\d{2})\b", lines[j])
-                        if t and time_str == "18:00":
-                            time_str = t.group(1)
-                        # Versenysorozat és helyszín (pl. "UEFA Európa LigaNovi Sad, Stadion")
-                        if "Liga" in lines[j] or "Kupa" in lines[j] or "UEFA" in lines[j] or "felkészülési" in lines[j].lower():
-                            # Szétválasztjuk a versenysorozatot és helyszínt
-                            comp_loc = re.split(r"(?<=[a-z])(?=[A-Z])", lines[j], maxsplit=1)
-                            competition = comp_loc[0].strip()
-                            if len(comp_loc) > 1:
-                                location = comp_loc[1].strip()
-                        # FTC és ellenfél keresése
-                        if "FTC" in lines[j] and not home:
-                            # Keressük az ellenfelet a szomszéd sorokban
-                            for k in range(j-2, j+3):
-                                if 0 <= k < len(lines) and k != j:
-                                    if lines[k] not in ["FTC", ""] and not re.match(r"202[67]", lines[k]) and len(lines[k]) > 2:
-                                        opponent = lines[k]
-                                        # Eldöntjük ki a hazai
-                                        if k < j:
-                                            home = opponent
-                                            away = "Ferencvárosi TC"
-                                        else:
-                                            home = "Ferencvárosi TC"
-                                            away = opponent
-                                        break
+                    # Nézzük a következő ~8 sort
+                    window = lines[i+1:i+9] if i+9 < len(lines) else lines[i+1:]
+                    
+                    for line in window:
+                        # Időpont ha még nincs
+                        if not time:
+                            time = parse_time(line)
+                        
+                        # Versenysorozat azonosítása
+                        if any(k in line for k in ["Liga", "Kupa", "UEFA", "felkészülési", "Konferencia"]):
+                            if not competition:
+                                competition = line
+                        
+                        # Helyszín: "Város, Stadionnév" mintázat
+                        if re.match(r"^[A-ZÁÉÍÓÖŐÚÜŰ][a-záéíóöőúüű]+,\s+.+", line) and not location:
+                            location = line
 
-                    if home and away and date_str:
-                        match = {
-                            "date": date_str,
-                            "time": time_str,
-                            "home": home,
-                            "away": away,
-                            "location": location,
-                            "competition": competition,
-                        }
-                        # Duplikátum ellenőrzés
-                        if match not in found_on_page:
-                            found_on_page.append(match)
+                        # Csapatnevek: FTC vagy ismert csapat
+                        if line == "FTC":
+                            if not home and not away:
+                                home = "Ferencvárosi TC"
+                            elif home and not away:
+                                away = "Ferencvárosi TC"
+                        elif line not in ["", competition, location] and \
+                             not parse_date(line) and \
+                             not parse_time(line) and \
+                             not any(k in line for k in ["Liga", "Kupa", "UEFA", "felkészülési", "Konferencia", "Következő", "Előző", "Szűr", "Összes", "Sportág", "Szakosztály", "Verseny"]) and \
+                             not re.match(r"^\d+$", line) and \
+                             len(line) > 2 and len(line) < 60:
+                            if not home:
+                                home = line
+                            elif not away and line != home:
+                                away = line
 
+                    # FTC mindig szerepeljen
+                    if home and not away:
+                        away = "Ferencvárosi TC"
+                    if away and not home:
+                        home = "Ferencvárosi TC"
+                    if not home and not away:
+                        home = "Ferencvárosi TC"
+                        away = "?"
+
+                    # Normalizálás: ha mindkét csapat FTC, skip
+                    if home == away == "Ferencvárosi TC":
+                        i += 1
+                        continue
+
+                    match = {
+                        "date": date,
+                        "time": time or "18:00",
+                        "home": home,
+                        "away": away,
+                        "location": location,
+                        "competition": competition,
+                    }
+                    found.append(match)
+                    i += 8  # ugrás a következő mérkőzésre
+                    continue
                 i += 1
 
-            if not found_on_page:
-                print(f"Nem találtunk mérkőzést a(z) {page}. oldalon, leállás.")
+            if not found:
+                print(f"  Nincs több mérkőzés, leállás.")
                 break
 
-            matches.extend(found_on_page)
-            print(f"  {len(found_on_page)} mérkőzés találva")
+            print(f"  {len(found)} mérkőzés találva")
+            matches.extend(found)
 
-            # Van-e következő oldal?
-            next_link = soup.find("a", string=re.compile("Következő|Next", re.I))
-            if not next_link:
+            # Következő oldal ellenőrzése
+            next_btn = soup.find("a", string=re.compile(r"Következő", re.I))
+            if not next_btn:
                 break
             page += 1
 
         except Exception as e:
-            print(f"Hiba a(z) {page}. oldalnál: {e}")
+            print(f"Hiba: {e}")
             break
 
-    # Duplikátumok eltávolítása és rendezés
+    # Deduplikálás dátum + csapatok alapján
     seen = set()
     unique = []
     for m in matches:
@@ -127,7 +142,7 @@ def fetch_all_matches():
             seen.add(key)
             unique.append(m)
 
-    unique.sort(key=lambda x: x["date"])
+    unique.sort(key=lambda x: (x["date"], x["time"]))
     return unique
 
 
@@ -161,23 +176,18 @@ def generate_ics(matches):
 
     for i, m in enumerate(matches):
         date_str = m["date"].replace("-", "")
-        time_parts = m.get("time", "18:00").split(":")
-        hour = int(time_parts[0])
-        minute = time_parts[1] if len(time_parts) > 1 else "00"
-        end_hour = (hour + 2) % 24
-
+        h, mi = m["time"].split(":")
+        end_h = (int(h) + 2) % 24
         uid = f"fradi-{m['date']}-{i}@ftc"
-        summary = f"{m['home']} – {m['away']}"
-        description = m.get("competition", "Ferencvárosi TC mérkőzés")
 
         lines += [
             "BEGIN:VEVENT",
             f"UID:{uid}",
-            f"DTSTART;TZID=Europe/Budapest:{date_str}T{hour:02d}{minute}00",
-            f"DTEND;TZID=Europe/Budapest:{date_str}T{end_hour:02d}{minute}00",
-            f"SUMMARY:{summary}",
+            f"DTSTART;TZID=Europe/Budapest:{date_str}T{int(h):02d}{mi}00",
+            f"DTEND;TZID=Europe/Budapest:{date_str}T{end_h:02d}{mi}00",
+            f"SUMMARY:{m['home']} – {m['away']}",
             f"LOCATION:{m.get('location', '')}",
-            f"DESCRIPTION:{description}",
+            f"DESCRIPTION:{m.get('competition', '')}",
             "END:VEVENT",
         ]
 
@@ -187,12 +197,12 @@ def generate_ics(matches):
 
 if __name__ == "__main__":
     os.makedirs("docs", exist_ok=True)
-    print("Mérkőzések lekérése a fradi.hu-ról...")
+    print("Mérkőzések lekérése...")
     matches = fetch_all_matches()
-    print(f"\nÖsszesen {len(matches)} mérkőzés találva")
+    print(f"\nÖsszesen {len(matches)} mérkőzés:")
     for m in matches:
-        print(f"  {m['date']} {m['time']} – {m['home']} vs {m['away']} ({m['competition']})")
+        print(f"  {m['date']} {m['time']} | {m['home']} – {m['away']} | {m['competition']} | {m['location']}")
     ics = generate_ics(matches)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(ics)
-    print(f"\nKész! ICS fájl mentve: {OUTPUT_FILE}")
+    print(f"\nKész! {OUTPUT_FILE}")
