@@ -4,7 +4,7 @@ import os
 OUTPUT_FILE = "docs/ferencvaros.ics"
 
 # Forrás: fixtur.es – Ferencváros összes mérkőzése (NB I + európai + kupa)
-SOURCE_URL = "https://ics.fixtur.es/v2/team/ferencvaros.ics"
+SOURCE_URL = "https://ics.fixtur.es/v2/team/ferencvarosi.ics"
 
 def fetch_and_save():
     print(f"Letöltés: {SOURCE_URL}")
