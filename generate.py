@@ -4,52 +4,138 @@ import re
 import os
 
 OUTPUT_FILE = "docs/ferencvaros.ics"
+BASE_URL = "https://www.fradi.hu/labdarugas/elso-csapat/esemenyek?page={}"
 
-# OTP Bank Liga 2026/27 – Ferencváros mérkőzései
-MATCHES = [
-    {"round": "1. forduló",  "date": "2026-07-25", "home": "Paksi FC",                 "away": "Ferencvárosi TC",        "location": "Paksi FC Stadion"},
-    {"round": "2. forduló",  "date": "2026-08-01", "home": "Ferencvárosi TC",          "away": "MTK Budapest",           "location": "Groupama Aréna"},
-    {"round": "3. forduló",  "date": "2026-08-08", "home": "Vasas FC",                 "away": "Ferencvárosi TC",        "location": "Illovszky Rudolf Stadion"},
-    {"round": "4. forduló",  "date": "2026-08-15", "home": "Ferencvárosi TC",          "away": "Kisvárda Master Good",   "location": "Groupama Aréna"},
-    {"round": "5. forduló",  "date": "2026-08-22", "home": "ZTE FC",                   "away": "Ferencvárosi TC",        "location": "ZTE Aréna"},
-    {"round": "6. forduló",  "date": "2026-08-29", "home": "Ferencvárosi TC",          "away": "Nyíregyháza Spartacus",  "location": "Groupama Aréna"},
-    {"round": "7. forduló",  "date": "2026-09-05", "home": "Kispest–Honvéd FC",        "away": "Ferencvárosi TC",        "location": "Bozsik Aréna"},
-    {"round": "8. forduló",  "date": "2026-09-19", "home": "Ferencvárosi TC",          "away": "DVSC",                   "location": "Groupama Aréna"},
-    {"round": "9. forduló",  "date": "2026-10-10", "home": "Ferencvárosi TC",          "away": "Puskás Akadémia FC",     "location": "Groupama Aréna"},
-    {"round": "10. forduló", "date": "2026-10-17", "home": "ETO FC",                   "away": "Ferencvárosi TC",        "location": "ETO Stadion"},
-    {"round": "11. forduló", "date": "2026-10-24", "home": "Ferencvárosi TC",          "away": "Újpest FC",              "location": "Groupama Aréna"},
-    {"round": "12. forduló", "date": "2026-10-31", "home": "Ferencvárosi TC",          "away": "ZTE FC",                 "location": "Groupama Aréna"},
-    {"round": "13. forduló", "date": "2026-11-07", "home": "Nyíregyháza Spartacus",    "away": "Ferencvárosi TC",        "location": "Nyíregyháza Városi Stadion"},
-    {"round": "14. forduló", "date": "2026-11-21", "home": "Ferencvárosi TC",          "away": "Vasas FC",               "location": "Groupama Aréna"},
-    {"round": "15. forduló", "date": "2026-11-28", "home": "MTK Budapest",             "away": "Ferencvárosi TC",        "location": "Új Hidegkuti Nándor Stadion"},
-    {"round": "16. forduló", "date": "2026-12-05", "home": "Ferencvárosi TC",          "away": "Kispest–Honvéd FC",      "location": "Groupama Aréna"},
-    {"round": "17. forduló", "date": "2026-12-12", "home": "Kisvárda Master Good",     "away": "Ferencvárosi TC",        "location": "Kisvárdai Várkerti Stadion"},
-    {"round": "18. forduló", "date": "2026-12-19", "home": "Ferencvárosi TC",          "away": "Paksi FC",               "location": "Groupama Aréna"},
-    {"round": "19. forduló", "date": "2027-01-30", "home": "Ferencvárosi TC",          "away": "ETO FC",                 "location": "Groupama Aréna"},
-    {"round": "20. forduló", "date": "2027-02-06", "home": "DVSC",                     "away": "Ferencvárosi TC",        "location": "Debreceni Nagyerdei Stadion"},
-    {"round": "21. forduló", "date": "2027-02-13", "home": "Ferencvárosi TC",          "away": "Kispest–Honvéd FC",      "location": "Groupama Aréna"},
-    {"round": "22. forduló", "date": "2027-02-20", "home": "Puskás Akadémia FC",       "away": "Ferencvárosi TC",        "location": "Puskás Akadémia Pancho Aréna"},
-    {"round": "23. forduló", "date": "2027-02-27", "home": "Ferencvárosi TC",          "away": "Nyíregyháza Spartacus",  "location": "Groupama Aréna"},
-    {"round": "24. forduló", "date": "2027-03-06", "home": "Újpest FC",                "away": "Ferencvárosi TC",        "location": "Szusza Ferenc Stadion"},
-    {"round": "25. forduló", "date": "2027-03-13", "home": "Ferencvárosi TC",          "away": "MTK Budapest",           "location": "Groupama Aréna"},
-    {"round": "26. forduló", "date": "2027-03-20", "home": "Ferencvárosi TC",          "away": "Vasas FC",               "location": "Groupama Aréna"},
-    {"round": "27. forduló", "date": "2027-04-03", "home": "ZTE FC",                   "away": "Ferencvárosi TC",        "location": "ZTE Aréna"},
-    {"round": "28. forduló", "date": "2027-04-10", "home": "Ferencvárosi TC",          "away": "DVSC",                   "location": "Groupama Aréna"},
-    {"round": "29. forduló", "date": "2027-04-17", "home": "Kisvárda Master Good",     "away": "Ferencvárosi TC",        "location": "Kisvárdai Várkerti Stadion"},
-    {"round": "30. forduló", "date": "2027-04-24", "home": "Ferencvárosi TC",          "away": "ETO FC",                 "location": "Groupama Aréna"},
-    {"round": "31. forduló", "date": "2027-05-01", "home": "Puskás Akadémia FC",       "away": "Ferencvárosi TC",        "location": "Puskás Akadémia Pancho Aréna"},
-    {"round": "32. forduló", "date": "2027-05-15", "home": "Ferencvárosi TC",          "away": "Újpest FC",              "location": "Groupama Aréna"},
-    {"round": "33. forduló", "date": "2027-05-22", "home": "Ferencvárosi TC",          "away": "Paksi FC",               "location": "Groupama Aréna"},
+def fetch_all_matches():
+    matches = []
+    page = 1
 
-    # Nemzetközi meccsek – add hozzá ide a saját adatokkal:
-    # {"round": "BL selejtező", "date": "2026-07-XX", "home": "Ferencvárosi TC", "away": "Ellenfél", "location": "Groupama Aréna"},
-]
+    while True:
+        url = BASE_URL.format(page)
+        print(f"Oldal lekérése: {url}")
+        try:
+            r = requests.get(url, timeout=15, headers={"User-Agent": "Mozilla/5.0"})
+            soup = BeautifulSoup(r.text, "html.parser")
+
+            # Mérkőzés blokkok keresése
+            blocks = soup.select("div.event-list-item, div.match-item, article, div.esemenyek-item")
+            
+            # Ha nem találjuk a specifikus osztályt, próbáljuk másképp
+            if not blocks:
+                # Dátum + csapatnév + helyszín mintázat alapján
+                blocks = soup.find_all("div", class_=re.compile(r"event|match|meccs|sorso", re.I))
+
+            # Szöveg alapú kinyerés ha a fenti nem működik
+            text = soup.get_text("\n", strip=True)
+            lines = [l.strip() for l in text.split("\n") if l.strip()]
+
+            found_on_page = []
+            i = 0
+            while i < len(lines):
+                # Dátum keresése: "2026. július 9." vagy "2026. augusztus 1."
+                date_match = re.match(
+                    r"(202[67])\. (január|február|március|április|május|június|július|augusztus|szeptember|október|november|december)\s+(\d{1,2})\.",
+                    lines[i]
+                )
+                if date_match:
+                    year = date_match.group(1)
+                    month_hu = date_match.group(2)
+                    day = date_match.group(3).zfill(2)
+                    
+                    month_map = {
+                        "január": "01", "február": "02", "március": "03",
+                        "április": "04", "május": "05", "június": "06",
+                        "július": "07", "augusztus": "08", "szeptember": "09",
+                        "október": "10", "november": "11", "december": "12"
+                    }
+                    month = month_map.get(month_hu, "01")
+                    date_str = f"{year}-{month}-{day}"
+
+                    # Időpont keresése a következő sorokban
+                    time_str = "18:00"
+                    competition = ""
+                    location = ""
+                    home = ""
+                    away = ""
+
+                    for j in range(i, min(i + 10, len(lines))):
+                        # Időpont
+                        t = re.search(r"\b(\d{1,2}:\d{2})\b", lines[j])
+                        if t and time_str == "18:00":
+                            time_str = t.group(1)
+                        # Versenysorozat és helyszín (pl. "UEFA Európa LigaNovi Sad, Stadion")
+                        if "Liga" in lines[j] or "Kupa" in lines[j] or "UEFA" in lines[j] or "felkészülési" in lines[j].lower():
+                            # Szétválasztjuk a versenysorozatot és helyszínt
+                            comp_loc = re.split(r"(?<=[a-z])(?=[A-Z])", lines[j], maxsplit=1)
+                            competition = comp_loc[0].strip()
+                            if len(comp_loc) > 1:
+                                location = comp_loc[1].strip()
+                        # FTC és ellenfél keresése
+                        if "FTC" in lines[j] and not home:
+                            # Keressük az ellenfelet a szomszéd sorokban
+                            for k in range(j-2, j+3):
+                                if 0 <= k < len(lines) and k != j:
+                                    if lines[k] not in ["FTC", ""] and not re.match(r"202[67]", lines[k]) and len(lines[k]) > 2:
+                                        opponent = lines[k]
+                                        # Eldöntjük ki a hazai
+                                        if k < j:
+                                            home = opponent
+                                            away = "Ferencvárosi TC"
+                                        else:
+                                            home = "Ferencvárosi TC"
+                                            away = opponent
+                                        break
+
+                    if home and away and date_str:
+                        match = {
+                            "date": date_str,
+                            "time": time_str,
+                            "home": home,
+                            "away": away,
+                            "location": location,
+                            "competition": competition,
+                        }
+                        # Duplikátum ellenőrzés
+                        if match not in found_on_page:
+                            found_on_page.append(match)
+
+                i += 1
+
+            if not found_on_page:
+                print(f"Nem találtunk mérkőzést a(z) {page}. oldalon, leállás.")
+                break
+
+            matches.extend(found_on_page)
+            print(f"  {len(found_on_page)} mérkőzés találva")
+
+            # Van-e következő oldal?
+            next_link = soup.find("a", string=re.compile("Következő|Next", re.I))
+            if not next_link:
+                break
+            page += 1
+
+        except Exception as e:
+            print(f"Hiba a(z) {page}. oldalnál: {e}")
+            break
+
+    # Duplikátumok eltávolítása és rendezés
+    seen = set()
+    unique = []
+    for m in matches:
+        key = (m["date"], m["home"], m["away"])
+        if key not in seen:
+            seen.add(key)
+            unique.append(m)
+
+    unique.sort(key=lambda x: x["date"])
+    return unique
+
 
 def generate_ics(matches):
     lines = [
         "BEGIN:VCALENDAR",
         "VERSION:2.0",
-        "PRODID:-//Ferencváros 2026/27//HU",
+        "PRODID:-//Ferencvárosi TC 2026/27//HU",
         "CALSCALE:GREGORIAN",
         "METHOD:PUBLISH",
         "X-WR-CALNAME:Ferencvárosi TC 2026/27",
@@ -75,29 +161,38 @@ def generate_ics(matches):
 
     for i, m in enumerate(matches):
         date_str = m["date"].replace("-", "")
-        time_str = m.get("time", "18:00").replace(":", "")
-        end_hour = f"{int(time_str[:2]) + 2:02d}"
-        uid = f"fradi-{m['date']}-{i}@mlsz"
+        time_parts = m.get("time", "18:00").split(":")
+        hour = int(time_parts[0])
+        minute = time_parts[1] if len(time_parts) > 1 else "00"
+        end_hour = (hour + 2) % 24
+
+        uid = f"fradi-{m['date']}-{i}@ftc"
         summary = f"{m['home']} – {m['away']}"
+        description = m.get("competition", "Ferencvárosi TC mérkőzés")
 
         lines += [
             "BEGIN:VEVENT",
             f"UID:{uid}",
-            f"DTSTART;TZID=Europe/Budapest:{date_str}T{time_str}00",
-            f"DTEND;TZID=Europe/Budapest:{date_str}T{end_hour}{time_str[2:]}00",
+            f"DTSTART;TZID=Europe/Budapest:{date_str}T{hour:02d}{minute}00",
+            f"DTEND;TZID=Europe/Budapest:{date_str}T{end_hour:02d}{minute}00",
             f"SUMMARY:{summary}",
-            f"LOCATION:{m['location']}",
-            f"DESCRIPTION:{m['round']}",
+            f"LOCATION:{m.get('location', '')}",
+            f"DESCRIPTION:{description}",
             "END:VEVENT",
         ]
 
     lines.append("END:VCALENDAR")
     return "\r\n".join(lines)
 
+
 if __name__ == "__main__":
     os.makedirs("docs", exist_ok=True)
-    print("ICS generálása...")
-    ics = generate_ics(MATCHES)
+    print("Mérkőzések lekérése a fradi.hu-ról...")
+    matches = fetch_all_matches()
+    print(f"\nÖsszesen {len(matches)} mérkőzés találva")
+    for m in matches:
+        print(f"  {m['date']} {m['time']} – {m['home']} vs {m['away']} ({m['competition']})")
+    ics = generate_ics(matches)
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(ics)
-    print(f"Kész! {len(MATCHES)} mérkőzés beírva.")
+    print(f"\nKész! ICS fájl mentve: {OUTPUT_FILE}")
