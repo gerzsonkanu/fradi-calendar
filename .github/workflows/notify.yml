@@ -1,0 +1,52 @@
+name: Fradi – Új meccs értesítő
+
+on:
+  schedule:
+    - cron: "0 8 * * *"
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Eseményszám ellenőrzése
+        run: |
+          COUNT=$(curl -s -A "Mozilla/5.0" "https://www.fradi.hu/labdarugas/elso-csapat/esemenyek" | grep -o "202[67]\. " | wc -l | tr -d ' ')
+          echo "Talált meccsek: $COUNT"
+          echo "EVENT_COUNT=$COUNT" >> $GITHUB_ENV
+
+      - name: Előző szám betöltése
+        run: |
+          PREV=$(cat event_count.txt 2>/dev/null || echo "0")
+          echo "Előző: $PREV"
+          echo "PREV_COUNT=$PREV" >> $GITHUB_ENV
+
+      - name: Értesítő küldése ha változott
+        if: env.EVENT_COUNT != env.PREV_COUNT
+        uses: dawidd6/action-send-mail@v3
+        with:
+          server_address: smtp.gmail.com
+          server_port: 465
+          username: crunits@gmail.com
+          password: ${{ secrets.GMAIL_PASSWORD }}
+          subject: "🟢 Fradi – Új meccs került fel!"
+          to: crunits@gmail.com
+          from: crunits@gmail.com
+          body: |
+            Új esemény jelent meg a Fradi oldalán!
+            
+            Előző eseményszám: ${{ env.PREV_COUNT }}
+            Jelenlegi eseményszám: ${{ env.EVENT_COUNT }}
+            
+            Nézd meg: https://www.fradi.hu/labdarugas/elso-csapat/esemenyek
+
+      - name: Számlálő frissítése
+        run: |
+          echo $EVENT_COUNT > event_count.txt
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add event_count.txt
+          git diff --cached --quiet || git commit -m "Eseményszám frissítve: $EVENT_COUNT"
+          git push
