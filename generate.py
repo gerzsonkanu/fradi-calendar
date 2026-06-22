@@ -3,8 +3,7 @@ import os
 
 OUTPUT_FILE = "docs/ferencvaros.ics"
 
-# Forrás: fixtur.es – Ferencváros összes mérkőzése (NB I + európai + kupa)
-SOURCE_URL = "https://ics.fixtur.es/v2/team/ferencvarosi.ics"
+SOURCE_URL = "https://ics.fixtur.es/v2/ferencvaros.ics"
 
 def fetch_and_save():
     print(f"Letöltés: {SOURCE_URL}")
@@ -13,7 +12,6 @@ def fetch_and_save():
 
     content = r.text
 
-    # Naptár neve magyarra
     content = content.replace(
         "X-WR-CALNAME:Ferencvarosi",
         "X-WR-CALNAME:Ferencvárosi TC 2026/27"
@@ -23,7 +21,6 @@ def fetch_and_save():
     with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
         f.write(content)
 
-    # Megszámoljuk az eseményeket
     count = content.count("BEGIN:VEVENT")
     print(f"Kész! {count} mérkőzés mentve → {OUTPUT_FILE}")
 
