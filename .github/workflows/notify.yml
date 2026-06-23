@@ -1,8 +1,8 @@
-name: Fradi – Új meccs értesítő
+name: Fradi – Változásfigyelő
 
 on:
   schedule:
-    - cron: "0 8 * * *"
+    - cron: "0 8 * * *"  # Minden nap reggel 8-kor
   workflow_dispatch:
 
 jobs:
@@ -11,42 +11,42 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      - name: Eseményszám ellenőrzése
+      - name: Oldal letöltése és hash generálása
         run: |
-          COUNT=$(curl -s -A "Mozilla/5.0" "https://www.fradi.hu/labdarugas/elso-csapat/esemenyek" | grep -o "202[67]\. " | wc -l | tr -d ' ')
-          echo "Talált meccsek: $COUNT"
-          echo "EVENT_COUNT=$COUNT" >> $GITHUB_ENV
+          CONTENT=$(curl -s -A "Mozilla/5.0" "https://www.fradi.hu/labdarugas/elso-csapat/esemenyek")
+          HASH=$(echo "$CONTENT" | md5sum | cut -d' ' -f1)
+          echo "Jelenlegi hash: $HASH"
+          echo "CURRENT_HASH=$HASH" >> $GITHUB_ENV
 
-      - name: Előző szám betöltése
+      - name: Előző hash betöltése
         run: |
-          PREV=$(cat event_count.txt 2>/dev/null || echo "0")
-          echo "Előző: $PREV"
-          echo "PREV_COUNT=$PREV" >> $GITHUB_ENV
+          PREV=$(cat page_hash.txt 2>/dev/null || echo "none")
+          echo "Előző hash: $PREV"
+          echo "PREV_HASH=$PREV" >> $GITHUB_ENV
 
       - name: Értesítő küldése ha változott
-        if: env.EVENT_COUNT != env.PREV_COUNT
+        if: env.CURRENT_HASH != env.PREV_HASH
         uses: dawidd6/action-send-mail@v3
         with:
           server_address: smtp.gmail.com
           server_port: 465
           username: crunits@gmail.com
           password: ${{ secrets.GMAIL_PASSWORD }}
-          subject: "🟢 Fradi – Új meccs került fel!"
+          subject: "🟢 Fradi – Változás az eseményoldalon!"
           to: crunits@gmail.com
           from: crunits@gmail.com
           body: |
-            Új esemény jelent meg a Fradi oldalán!
+            Változás történt a Fradi eseményoldalán!
             
-            Előző eseményszám: ${{ env.PREV_COUNT }}
-            Jelenlegi eseményszám: ${{ env.EVENT_COUNT }}
+            Lehet hogy új meccs, időpont vagy helyszín változott.
             
             Nézd meg: https://www.fradi.hu/labdarugas/elso-csapat/esemenyek
 
-      - name: Számlálő frissítése
+      - name: Hash frissítése
         run: |
-          echo $EVENT_COUNT > event_count.txt
+          echo $CURRENT_HASH > page_hash.txt
           git config user.name "github-actions"
           git config user.email "actions@github.com"
-          git add event_count.txt
-          git diff --cached --quiet || git commit -m "Eseményszám frissítve: $EVENT_COUNT"
+          git add page_hash.txt
+          git diff --cached --quiet || git commit -m "Hash frissítve: $CURRENT_HASH"
           git push
