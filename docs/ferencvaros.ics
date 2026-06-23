@@ -23,7 +23,23 @@ RRULE:FREQ=YEARLY;BYDAY=-1SU;BYMONTH=3
 END:DAYLIGHT
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fradi-2026-07-09-0@ftc
+UID:fradi-2026-06-28-0@ftc
+DTSTART;TZID=Europe/Budapest:20260628T163000
+DTEND;TZID=Europe/Budapest:20260628T183000
+SUMMARY:🤝⚽️Ferencvárosi TC – FK Sabah
+LOCATION:Wörgl, Sportzentrum
+DESCRIPTION:Felkészülési mérkőzés
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-07-01-1@ftc
+DTSTART;TZID=Europe/Budapest:20260701T173000
+DTEND;TZID=Europe/Budapest:20260701T193000
+SUMMARY:🤝⚽️Ferencvárosi TC – Qarabag FK
+LOCATION:Kirchdorf, Leerbergarena
+DESCRIPTION:Felkészülési mérkőzés
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-07-09-2@ftc
 DTSTART;TZID=Europe/Budapest:20260709T200000
 DTEND;TZID=Europe/Budapest:20260709T220000
 SUMMARY:🌍🏆FK Vojvodina – Ferencvárosi TC
@@ -31,7 +47,7 @@ LOCATION:Novi Sad, Stadion Karadjordje
 DESCRIPTION:UEFA Európa Liga – 1. kör (1. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-07-16-1@ftc
+UID:fradi-2026-07-16-3@ftc
 DTSTART;TZID=Europe/Budapest:20260716T201500
 DTEND;TZID=Europe/Budapest:20260716T221500
 SUMMARY:🌍🏆Ferencvárosi TC – FK Vojvodina
@@ -39,7 +55,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:UEFA Európa Liga – 1. kör (2. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-07-23-2@ftc
+UID:fradi-2026-07-23-4@ftc
 DTSTART;TZID=Europe/Budapest:20260723T200000
 DTEND;TZID=Europe/Budapest:20260723T220000
 SUMMARY:🌍🏆Ferencvárosi TC – UEFA EL
@@ -47,7 +63,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:UEFA Európa Liga – 2. kör (1. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-07-25-3@ftc
+UID:fradi-2026-07-25-5@ftc
 DTSTART;TZID=Europe/Budapest:20260725T180000
 DTEND;TZID=Europe/Budapest:20260725T200000
 SUMMARY:⚽️Paksi FC – Ferencvárosi TC
@@ -55,7 +71,7 @@ LOCATION:Paks, Paksi FC Stadion
 DESCRIPTION:OTP Bank Liga, 1. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-07-30-4@ftc
+UID:fradi-2026-07-30-6@ftc
 DTSTART;TZID=Europe/Budapest:20260730T200000
 DTEND;TZID=Europe/Budapest:20260730T220000
 SUMMARY:🌍🏆UEFA EL – Ferencvárosi TC
@@ -63,7 +79,7 @@ LOCATION:
 DESCRIPTION:UEFA Európa Liga – 2. kör (2. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-08-01-5@ftc
+UID:fradi-2026-08-01-7@ftc
 DTSTART;TZID=Europe/Budapest:20260801T180000
 DTEND;TZID=Europe/Budapest:20260801T200000
 SUMMARY:⚽️Ferencvárosi TC – Vasas FC
@@ -71,7 +87,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 2. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-08-06-6@ftc
+UID:fradi-2026-08-06-8@ftc
 DTSTART;TZID=Europe/Budapest:20260806T200000
 DTEND;TZID=Europe/Budapest:20260806T220000
 SUMMARY:🌍🏆Ferencvárosi TC – UEFA EL
@@ -79,7 +95,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:UEFA Európa Liga – 3. kör (1. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-08-08-7@ftc
+UID:fradi-2026-08-08-9@ftc
 DTSTART;TZID=Europe/Budapest:20260808T180000
 DTEND;TZID=Europe/Budapest:20260808T200000
 SUMMARY:⚽️ETO FC – Ferencvárosi TC
@@ -87,7 +103,7 @@ LOCATION:Győr, ETO Stadion
 DESCRIPTION:OTP Bank Liga, 3. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-08-13-8@ftc
+UID:fradi-2026-08-13-10@ftc
 DTSTART;TZID=Europe/Budapest:20260813T200000
 DTEND;TZID=Europe/Budapest:20260813T220000
 SUMMARY:🌍🏆UEFA EL – Ferencvárosi TC
@@ -95,7 +111,7 @@ LOCATION:
 DESCRIPTION:UEFA Európa Liga – 3. kör (2. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-08-15-9@ftc
+UID:fradi-2026-08-15-11@ftc
 DTSTART;TZID=Europe/Budapest:20260815T180000
 DTEND;TZID=Europe/Budapest:20260815T200000
 SUMMARY:⚽️ZTE FC – Ferencvárosi TC
@@ -103,7 +119,7 @@ LOCATION:Zalaegerszeg, ZTE Aréna
 DESCRIPTION:OTP Bank Liga, 4. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-08-20-10@ftc
+UID:fradi-2026-08-20-12@ftc
 DTSTART;TZID=Europe/Budapest:20260820T200000
 DTEND;TZID=Europe/Budapest:20260820T220000
 SUMMARY:🌍🏆Ferencvárosi TC – UEFA EL
@@ -111,7 +127,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:UEFA Európa Liga – Playoff (1. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-08-22-11@ftc
+UID:fradi-2026-08-22-13@ftc
 DTSTART;TZID=Europe/Budapest:20260822T180000
 DTEND;TZID=Europe/Budapest:20260822T200000
 SUMMARY:⚽️Ferencvárosi TC – Kispest–Honvéd FC
@@ -119,7 +135,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 5. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-08-27-12@ftc
+UID:fradi-2026-08-27-14@ftc
 DTSTART;TZID=Europe/Budapest:20260827T200000
 DTEND;TZID=Europe/Budapest:20260827T220000
 SUMMARY:🌍🏆UEFA EL – Ferencvárosi TC
@@ -127,7 +143,7 @@ LOCATION:
 DESCRIPTION:UEFA Európa Liga – Playoff (2. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-08-29-13@ftc
+UID:fradi-2026-08-29-15@ftc
 DTSTART;TZID=Europe/Budapest:20260829T180000
 DTEND;TZID=Europe/Budapest:20260829T200000
 SUMMARY:⚽️Puskás Akadémia FC – Ferencvárosi TC
@@ -135,7 +151,7 @@ LOCATION:Felcsút, Pancho Aréna
 DESCRIPTION:OTP Bank Liga, 6. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-09-05-14@ftc
+UID:fradi-2026-09-05-16@ftc
 DTSTART;TZID=Europe/Budapest:20260905T180000
 DTEND;TZID=Europe/Budapest:20260905T200000
 SUMMARY:⚽️Ferencvárosi TC – MTK Budapest
@@ -143,7 +159,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 7. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-09-19-15@ftc
+UID:fradi-2026-09-19-17@ftc
 DTSTART;TZID=Europe/Budapest:20260919T180000
 DTEND;TZID=Europe/Budapest:20260919T200000
 SUMMARY:⚽️Nyíregyháza Spartacus FC – Ferencvárosi TC
@@ -151,7 +167,7 @@ LOCATION:Nyíregyháza, Városi Stadion
 DESCRIPTION:OTP Bank Liga, 8. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-10-10-16@ftc
+UID:fradi-2026-10-10-18@ftc
 DTSTART;TZID=Europe/Budapest:20261010T180000
 DTEND;TZID=Europe/Budapest:20261010T200000
 SUMMARY:⚽️Ferencvárosi TC – Kisvárda Master Good
@@ -159,7 +175,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 9. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-10-17-17@ftc
+UID:fradi-2026-10-17-19@ftc
 DTSTART;TZID=Europe/Budapest:20261017T180000
 DTEND;TZID=Europe/Budapest:20261017T200000
 SUMMARY:⚽️Kisvárda Master Good – Ferencvárosi TC
@@ -167,7 +183,7 @@ LOCATION:Kisvárda, Várkerti Stadion
 DESCRIPTION:OTP Bank Liga, 10. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-10-24-18@ftc
+UID:fradi-2026-10-24-20@ftc
 DTSTART;TZID=Europe/Budapest:20261024T180000
 DTEND;TZID=Europe/Budapest:20261024T200000
 SUMMARY:⚽️Ferencvárosi TC – DVSC
@@ -175,7 +191,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 11. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-10-31-19@ftc
+UID:fradi-2026-10-31-21@ftc
 DTSTART;TZID=Europe/Budapest:20261031T180000
 DTEND;TZID=Europe/Budapest:20261031T200000
 SUMMARY:⚽️Ferencvárosi TC – Puskás Akadémia FC
@@ -183,7 +199,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 12. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-11-07-20@ftc
+UID:fradi-2026-11-07-22@ftc
 DTSTART;TZID=Europe/Budapest:20261107T180000
 DTEND;TZID=Europe/Budapest:20261107T200000
 SUMMARY:⚽️Vasas FC – Ferencvárosi TC
@@ -191,7 +207,7 @@ LOCATION:Budapest, Illovszky Rudolf Stadion
 DESCRIPTION:OTP Bank Liga, 13. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-11-21-21@ftc
+UID:fradi-2026-11-21-23@ftc
 DTSTART;TZID=Europe/Budapest:20261121T180000
 DTEND;TZID=Europe/Budapest:20261121T200000
 SUMMARY:⚽️Ferencvárosi TC – Nyíregyháza Spartacus FC
@@ -199,7 +215,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 14. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-11-28-22@ftc
+UID:fradi-2026-11-28-24@ftc
 DTSTART;TZID=Europe/Budapest:20261128T180000
 DTEND;TZID=Europe/Budapest:20261128T200000
 SUMMARY:⚽️MTK Budapest – Ferencvárosi TC
@@ -207,7 +223,7 @@ LOCATION:Budapest, Új Hidegkuti Nándor Stadion
 DESCRIPTION:OTP Bank Liga, 15. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-12-05-23@ftc
+UID:fradi-2026-12-05-25@ftc
 DTSTART;TZID=Europe/Budapest:20261205T180000
 DTEND;TZID=Europe/Budapest:20261205T200000
 SUMMARY:⚽️Ferencvárosi TC – ETO FC
@@ -215,7 +231,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 16. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-12-12-24@ftc
+UID:fradi-2026-12-12-26@ftc
 DTSTART;TZID=Europe/Budapest:20261212T180000
 DTEND;TZID=Europe/Budapest:20261212T200000
 SUMMARY:⚽️Kispest–Honvéd FC – Ferencvárosi TC
@@ -223,7 +239,7 @@ LOCATION:Budapest, Bozsik Aréna
 DESCRIPTION:OTP Bank Liga, 17. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-12-19-25@ftc
+UID:fradi-2026-12-19-27@ftc
 DTSTART;TZID=Europe/Budapest:20261219T180000
 DTEND;TZID=Europe/Budapest:20261219T200000
 SUMMARY:⚽️Újpest FC – Ferencvárosi TC
@@ -231,7 +247,7 @@ LOCATION:Budapest, Szusza Ferenc Stadion
 DESCRIPTION:OTP Bank Liga, 18. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-01-30-26@ftc
+UID:fradi-2027-01-30-28@ftc
 DTSTART;TZID=Europe/Budapest:20270130T180000
 DTEND;TZID=Europe/Budapest:20270130T200000
 SUMMARY:⚽️Ferencvárosi TC – ZTE FC
@@ -239,7 +255,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 19. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-02-06-27@ftc
+UID:fradi-2027-02-06-29@ftc
 DTSTART;TZID=Europe/Budapest:20270206T180000
 DTEND;TZID=Europe/Budapest:20270206T200000
 SUMMARY:⚽️DVSC – Ferencvárosi TC
@@ -247,7 +263,7 @@ LOCATION:Debrecen, Nagyerdei Stadion
 DESCRIPTION:OTP Bank Liga, 20. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-02-13-28@ftc
+UID:fradi-2027-02-13-30@ftc
 DTSTART;TZID=Europe/Budapest:20270213T180000
 DTEND;TZID=Europe/Budapest:20270213T200000
 SUMMARY:⚽️Ferencvárosi TC – Paksi FC
@@ -255,7 +271,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 21. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-02-20-29@ftc
+UID:fradi-2027-02-20-31@ftc
 DTSTART;TZID=Europe/Budapest:20270220T180000
 DTEND;TZID=Europe/Budapest:20270220T200000
 SUMMARY:⚽️MTK Budapest – Ferencvárosi TC
@@ -263,7 +279,7 @@ LOCATION:Budapest, Új Hidegkuti Nándor Stadion
 DESCRIPTION:OTP Bank Liga, 22. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-02-27-30@ftc
+UID:fradi-2027-02-27-32@ftc
 DTSTART;TZID=Europe/Budapest:20270227T180000
 DTEND;TZID=Europe/Budapest:20270227T200000
 SUMMARY:⚽️Paksi FC – Ferencvárosi TC
@@ -271,7 +287,7 @@ LOCATION:Paks, Paksi FC Stadion
 DESCRIPTION:OTP Bank Liga, 23. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-03-06-31@ftc
+UID:fradi-2027-03-06-33@ftc
 DTSTART;TZID=Europe/Budapest:20270306T180000
 DTEND;TZID=Europe/Budapest:20270306T200000
 SUMMARY:⚽️Ferencvárosi TC – Vasas FC
@@ -279,7 +295,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 24. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-03-13-32@ftc
+UID:fradi-2027-03-13-34@ftc
 DTSTART;TZID=Europe/Budapest:20270313T180000
 DTEND;TZID=Europe/Budapest:20270313T200000
 SUMMARY:⚽️ETO FC – Ferencvárosi TC
@@ -287,7 +303,7 @@ LOCATION:Győr, ETO Stadion
 DESCRIPTION:OTP Bank Liga, 25. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-03-20-33@ftc
+UID:fradi-2027-03-20-35@ftc
 DTSTART;TZID=Europe/Budapest:20270320T180000
 DTEND;TZID=Europe/Budapest:20270320T200000
 SUMMARY:⚽️ZTE FC – Ferencvárosi TC
@@ -295,7 +311,7 @@ LOCATION:Zalaegerszeg, ZTE Aréna
 DESCRIPTION:OTP Bank Liga, 26. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-04-03-34@ftc
+UID:fradi-2027-04-03-36@ftc
 DTSTART;TZID=Europe/Budapest:20270403T180000
 DTEND;TZID=Europe/Budapest:20270403T200000
 SUMMARY:⚽️Ferencvárosi TC – Újpest FC
@@ -303,7 +319,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 27. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-04-10-35@ftc
+UID:fradi-2027-04-10-37@ftc
 DTSTART;TZID=Europe/Budapest:20270410T180000
 DTEND;TZID=Europe/Budapest:20270410T200000
 SUMMARY:⚽️Puskás Akadémia FC – Ferencvárosi TC
@@ -311,7 +327,7 @@ LOCATION:Felcsút, Pancho Aréna
 DESCRIPTION:OTP Bank Liga, 28. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-04-17-36@ftc
+UID:fradi-2027-04-17-38@ftc
 DTSTART;TZID=Europe/Budapest:20270417T180000
 DTEND;TZID=Europe/Budapest:20270417T200000
 SUMMARY:⚽️Ferencvárosi TC – Kispest–Honvéd FC
@@ -319,7 +335,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 29. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-04-24-37@ftc
+UID:fradi-2027-04-24-39@ftc
 DTSTART;TZID=Europe/Budapest:20270424T180000
 DTEND;TZID=Europe/Budapest:20270424T200000
 SUMMARY:⚽️Nyíregyháza Spartacus FC – Ferencvárosi TC
@@ -327,7 +343,7 @@ LOCATION:Nyíregyháza, Városi Stadion
 DESCRIPTION:OTP Bank Liga, 30. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-05-01-38@ftc
+UID:fradi-2027-05-01-40@ftc
 DTSTART;TZID=Europe/Budapest:20270501T180000
 DTEND;TZID=Europe/Budapest:20270501T200000
 SUMMARY:⚽️Ferencvárosi TC – MTK Budapest
@@ -335,7 +351,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 31. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-05-15-39@ftc
+UID:fradi-2027-05-15-41@ftc
 DTSTART;TZID=Europe/Budapest:20270515T180000
 DTEND;TZID=Europe/Budapest:20270515T200000
 SUMMARY:⚽️Kisvárda Master Good – Ferencvárosi TC
@@ -343,7 +359,7 @@ LOCATION:Kisvárda, Várkerti Stadion
 DESCRIPTION:OTP Bank Liga, 32. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-05-22-40@ftc
+UID:fradi-2027-05-22-42@ftc
 DTSTART;TZID=Europe/Budapest:20270522T180000
 DTEND;TZID=Europe/Budapest:20270522T200000
 SUMMARY:⚽️Ferencvárosi TC – DVSC
