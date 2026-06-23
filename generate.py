@@ -3,6 +3,10 @@ import os
 OUTPUT_FILE = "docs/ferencvaros.ics"
 
 MATCHES = [
+    # --- Felkészülési mérkőzések ---
+    {"emoji": "🤝⚽️", "competition": "Felkészülési mérkőzés", "date": "2026-06-28", "time": "16:30", "home": "Ferencvárosi TC", "away": "FK Sabah",     "location": "Wörgl, Sportzentrum"},
+    {"emoji": "🤝⚽️", "competition": "Felkészülési mérkőzés", "date": "2026-07-01", "time": "17:30", "home": "Ferencvárosi TC", "away": "Qarabag FK",   "location": "Kirchdorf, Leerbergarena"},
+
     # --- UEFA Európa Liga – 1. kör (ellenfél ismert) ---
     {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 1. kör (1. mérkőzés)", "date": "2026-07-09", "time": "20:00", "home": "FK Vojvodina",    "away": "Ferencvárosi TC", "location": "Novi Sad, Stadion Karadjordje"},
     {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 1. kör (2. mérkőzés)", "date": "2026-07-16", "time": "20:15", "home": "Ferencvárosi TC", "away": "FK Vojvodina",    "location": "Budapest, Groupama Aréna"},
