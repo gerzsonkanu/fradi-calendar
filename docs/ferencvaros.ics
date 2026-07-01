@@ -154,7 +154,7 @@ BEGIN:VEVENT
 UID:fradi-2026-09-05-16@ftc
 DTSTART;TZID=Europe/Budapest:20260905T180000
 DTEND;TZID=Europe/Budapest:20260905T200000
-SUMMARY:⚽️Ferencvárosi TC – MTK Budapest
+SUMMARY:⚽️Ferencvárosi TC – Újpest FC
 LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 7. forduló
 END:VEVENT
