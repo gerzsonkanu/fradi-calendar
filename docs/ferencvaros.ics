@@ -170,7 +170,7 @@ BEGIN:VEVENT
 UID:fradi-2026-10-10-18@ftc
 DTSTART;TZID=Europe/Budapest:20261010T180000
 DTEND;TZID=Europe/Budapest:20261010T200000
-SUMMARY:⚽️Ferencvárosi TC – Kisvárda Master Good
+SUMMARY:⚽️Ferencvárosi TC – DVSC
 LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 9. forduló
 END:VEVENT
@@ -186,7 +186,7 @@ BEGIN:VEVENT
 UID:fradi-2026-10-24-20@ftc
 DTSTART;TZID=Europe/Budapest:20261024T180000
 DTEND;TZID=Europe/Budapest:20261024T200000
-SUMMARY:⚽️Ferencvárosi TC – DVSC
+SUMMARY:⚽️Ferencvárosi TC – Kisvárda Master Good
 LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 11. forduló
 END:VEVENT
