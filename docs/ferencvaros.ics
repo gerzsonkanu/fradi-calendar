@@ -42,15 +42,15 @@ BEGIN:VEVENT
 UID:fradi-2026-07-09-2@ftc
 DTSTART;TZID=Europe/Budapest:20260709T200000
 DTEND;TZID=Europe/Budapest:20260709T220000
-SUMMARY:🌍🏆FK Vojvodina – Ferencvárosi TC
-LOCATION:Novi Sad, Stadion Karadjordje
+SUMMARY:🌍🏆FC Twente – Ferencvárosi TC
+LOCATION:Enschede, De Grolsch Veste
 DESCRIPTION:UEFA Európa Liga – 1. kör (1. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2026-07-16-3@ftc
 DTSTART;TZID=Europe/Budapest:20260716T201500
 DTEND;TZID=Europe/Budapest:20260716T221500
-SUMMARY:🌍🏆Ferencvárosi TC – FK Vojvodina
+SUMMARY:🌍🏆Ferencvárosi TC – FC Twente
 LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:UEFA Európa Liga – 1. kör (2. mérkőzés)
 END:VEVENT
@@ -63,9 +63,9 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:UEFA Európa Liga – 2. kör (1. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-07-25-5@ftc
-DTSTART;TZID=Europe/Budapest:20260725T180000
-DTEND;TZID=Europe/Budapest:20260725T200000
+UID:fradi-2026-07-26-5@ftc
+DTSTART;TZID=Europe/Budapest:20260726T200000
+DTEND;TZID=Europe/Budapest:20260726T220000
 SUMMARY:⚽️Paksi FC – Ferencvárosi TC
 LOCATION:Paks, Paksi FC Stadion
 DESCRIPTION:OTP Bank Liga, 1. forduló
@@ -79,9 +79,9 @@ LOCATION:
 DESCRIPTION:UEFA Európa Liga – 2. kör (2. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-08-01-7@ftc
-DTSTART;TZID=Europe/Budapest:20260801T180000
-DTEND;TZID=Europe/Budapest:20260801T200000
+UID:fradi-2026-08-02-7@ftc
+DTSTART;TZID=Europe/Budapest:20260802T201500
+DTEND;TZID=Europe/Budapest:20260802T221500
 SUMMARY:⚽️Ferencvárosi TC – Vasas FC
 LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 2. forduló
