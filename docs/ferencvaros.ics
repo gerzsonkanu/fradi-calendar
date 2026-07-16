@@ -42,15 +42,15 @@ BEGIN:VEVENT
 UID:fradi-2026-07-09-2@ftc
 DTSTART;TZID=Europe/Budapest:20260709T200000
 DTEND;TZID=Europe/Budapest:20260709T220000
-SUMMARY:🌍🏆FC Twente – Ferencvárosi TC
-LOCATION:Enschede, De Grolsch Veste
+SUMMARY:🌍🏆FK Vojvodina – Ferencvárosi TC
+LOCATION:Novi Sad, Stadion Karadjordje
 DESCRIPTION:UEFA Európa Liga – 1. kör (1. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2026-07-16-3@ftc
 DTSTART;TZID=Europe/Budapest:20260716T201500
 DTEND;TZID=Europe/Budapest:20260716T221500
-SUMMARY:🌍🏆Ferencvárosi TC – FC Twente
+SUMMARY:🌍🏆Ferencvárosi TC – FK Vojvodina
 LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:UEFA Európa Liga – 1. kör (2. mérkőzés)
 END:VEVENT
