@@ -8,8 +8,8 @@ MATCHES = [
     {"emoji": "🤝⚽️", "competition": "Felkészülési mérkőzés", "date": "2026-07-01", "time": "17:30", "home": "Ferencvárosi TC", "away": "Qarabag FK",   "location": "Kirchdorf, Leerbergarena"},
 
     # --- UEFA Európa Liga – 1. kör (ellenfél ismert) ---
-    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 1. kör (1. mérkőzés)", "date": "2026-07-09", "time": "20:00", "home": "FC Twente",        "away": "Ferencvárosi TC", "location": "Enschede, De Grolsch Veste"},
-    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 1. kör (2. mérkőzés)", "date": "2026-07-16", "time": "20:15", "home": "Ferencvárosi TC", "away": "FC Twente",        "location": "Budapest, Groupama Aréna"},
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 1. kör (1. mérkőzés)", "date": "2026-07-09", "time": "20:00", "home": "FK Vojvodina",    "away": "Ferencvárosi TC", "location": "Novi Sad, Stadion Karadjordje"},
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 1. kör (2. mérkőzés)", "date": "2026-07-16", "time": "20:15", "home": "Ferencvárosi TC", "away": "FK Vojvodina",    "location": "Budapest, Groupama Aréna"},
 
     # --- UEFA Európa Liga – 2. kör (ha továbbjut) ---
     {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 2. kör (1. mérkőzés)", "date": "2026-07-23", "time": "20:00", "home": "Ferencvárosi TC", "away": "UEFA EL",             "location": "Budapest, Groupama Aréna"},
