@@ -4,24 +4,24 @@ OUTPUT_FILE = "docs/ferencvaros.ics"
 
 MATCHES = [
     # --- Felkészülési mérkőzések ---
-    {"emoji": "🤝⚽️", "competition": "Felkészülési mérkőzés", "date": "2026-06-28", "time": "17:00", "home": "Ferencvárosi TC", "away": "FK Sabah",     "location": "Wörgl, Sportzentrum"},
-    {"emoji": "🤝⚽️", "competition": "Felkészülési mérkőzés", "date": "2026-07-01", "time": "17:30", "home": "Ferencvárosi TC", "away": "Qarabag FK",   "location": "Kirchdorf, Leerbergarena"},
+    {"emoji": "🤝⚽️", "competition": "Felkészülési mérkőzés", "date": "2026-06-28", "time": "17:00", "home": "Ferencvárosi TC", "away": "FK Sabah",   "location": "Wörgl, Sportzentrum"},
+    {"emoji": "🤝⚽️", "competition": "Felkészülési mérkőzés", "date": "2026-07-01", "time": "17:30", "home": "Ferencvárosi TC", "away": "Qarabag FK", "location": "Kirchdorf, Leerbergarena"},
 
-    # --- UEFA Európa Liga – 1. kör (ellenfél ismert) ---
+    # --- UEFA Európa Liga – 1. kör ---
     {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 1. kör (1. mérkőzés)", "date": "2026-07-09", "time": "20:00", "home": "FK Vojvodina",    "away": "Ferencvárosi TC", "location": "Novi Sad, Stadion Karadjordje"},
     {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 1. kör (2. mérkőzés)", "date": "2026-07-16", "time": "20:15", "home": "Ferencvárosi TC", "away": "FK Vojvodina",    "location": "Budapest, Groupama Aréna"},
 
-    # --- UEFA Európa Liga – 2. kör (ha továbbjut) ---
-    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 2. kör (1. mérkőzés)", "date": "2026-07-23", "time": "20:00", "home": "Ferencvárosi TC", "away": "UEFA EL",             "location": "Budapest, Groupama Aréna"},
-    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 2. kör (2. mérkőzés)", "date": "2026-07-30", "time": "20:00", "home": "UEFA EL",             "away": "Ferencvárosi TC", "location": ""},
+    # --- UEFA Európa Liga – 2. kör ---
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 2. kör (1. mérkőzés)", "date": "2026-07-23", "time": "20:00", "home": "FC Twente",        "away": "Ferencvárosi TC", "location": "Enschede, FC Twente Stadion"},
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 2. kör (2. mérkőzés)", "date": "2026-07-30", "time": "20:30", "home": "Ferencvárosi TC", "away": "FC Twente",        "location": "Budapest, Groupama Aréna"},
 
     # --- UEFA Európa Liga – 3. kör (ha továbbjut) ---
-    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 3. kör (1. mérkőzés)", "date": "2026-08-06", "time": "20:00", "home": "Ferencvárosi TC", "away": "UEFA EL",             "location": "Budapest, Groupama Aréna"},
-    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 3. kör (2. mérkőzés)", "date": "2026-08-13", "time": "20:00", "home": "UEFA EL",             "away": "Ferencvárosi TC", "location": ""},
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 3. kör (1. mérkőzés)", "date": "2026-08-06", "time": "20:00", "home": "Ferencvárosi TC", "away": "UEFA EL",         "location": "Budapest, Groupama Aréna"},
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 3. kör (2. mérkőzés)", "date": "2026-08-13", "time": "20:00", "home": "UEFA EL",         "away": "Ferencvárosi TC", "location": ""},
 
     # --- UEFA Európa Liga – Playoff (ha továbbjut) ---
-    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Playoff (1. mérkőzés)", "date": "2026-08-20", "time": "20:00", "home": "Ferencvárosi TC", "away": "UEFA EL",            "location": "Budapest, Groupama Aréna"},
-    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Playoff (2. mérkőzés)", "date": "2026-08-27", "time": "20:00", "home": "UEFA EL",             "away": "Ferencvárosi TC", "location": ""},
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Playoff (1. mérkőzés)", "date": "2026-08-20", "time": "20:00", "home": "Ferencvárosi TC", "away": "UEFA EL",        "location": "Budapest, Groupama Aréna"},
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Playoff (2. mérkőzés)", "date": "2026-08-27", "time": "20:00", "home": "UEFA EL",         "away": "Ferencvárosi TC", "location": ""},
 
     # --- OTP Bank Liga ---
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 1. forduló",  "date": "2026-07-26", "time": "20:00", "home": "Paksi FC",                 "away": "Ferencvárosi TC",         "location": "Paks, Paksi FC Stadion"},
@@ -30,7 +30,7 @@ MATCHES = [
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 4. forduló",  "date": "2026-08-15", "time": "18:00", "home": "ZTE FC",                   "away": "Ferencvárosi TC",         "location": "Zalaegerszeg, ZTE Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 5. forduló",  "date": "2026-08-22", "time": "18:00", "home": "Ferencvárosi TC",          "away": "Kispest–Honvéd FC",       "location": "Budapest, Groupama Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 6. forduló",  "date": "2026-08-29", "time": "18:00", "home": "Puskás Akadémia FC",       "away": "Ferencvárosi TC",         "location": "Felcsút, Pancho Aréna"},
-    {"emoji": "⚽️", "competition": "OTP Bank Liga, 7. forduló",  "date": "2026-09-05", "time": "18:00", "home": "Ferencvárosi TC",          "away": "Újpest FC",            "location": "Budapest, Groupama Aréna"},
+    {"emoji": "⚽️", "competition": "OTP Bank Liga, 7. forduló",  "date": "2026-09-05", "time": "18:00", "home": "Ferencvárosi TC",          "away": "Újpest FC",               "location": "Budapest, Groupama Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 8. forduló",  "date": "2026-09-19", "time": "18:00", "home": "Nyíregyháza Spartacus FC", "away": "Ferencvárosi TC",         "location": "Nyíregyháza, Városi Stadion"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 9. forduló",  "date": "2026-10-10", "time": "18:00", "home": "Ferencvárosi TC",          "away": "DVSC",                    "location": "Budapest, Groupama Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 10. forduló", "date": "2026-10-17", "time": "18:00", "home": "Kisvárda Master Good",     "away": "Ferencvárosi TC",         "location": "Kisvárda, Várkerti Stadion"},
@@ -86,14 +86,12 @@ def generate_ics(matches):
         "END:DAYLIGHT",
         "END:VTIMEZONE",
     ]
-
     for i, m in enumerate(matches):
         date_str = m["date"].replace("-", "")
         h, mi = m["time"].split(":")
         end_h = (int(h) + 2) % 24
         uid = f"fradi-{m['date']}-{i}@ftc"
         summary = f"{m['emoji']}{m['home']} – {m['away']}"
-
         lines += [
             "BEGIN:VEVENT",
             f"UID:{uid}",
@@ -104,10 +102,8 @@ def generate_ics(matches):
             f"DESCRIPTION:{m['competition']}",
             "END:VEVENT",
         ]
-
     lines.append("END:VCALENDAR")
     return "\r\n".join(lines)
-
 
 if __name__ == "__main__":
     os.makedirs("docs", exist_ok=True)
