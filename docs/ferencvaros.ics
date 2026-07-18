@@ -58,8 +58,8 @@ BEGIN:VEVENT
 UID:fradi-2026-07-23-4@ftc
 DTSTART;TZID=Europe/Budapest:20260723T200000
 DTEND;TZID=Europe/Budapest:20260723T220000
-SUMMARY:🌍🏆Ferencvárosi TC – UEFA EL
-LOCATION:Budapest, Groupama Aréna
+SUMMARY:🌍🏆FC Twente – Ferencvárosi TC
+LOCATION:Enschede, FC Twente Stadion
 DESCRIPTION:UEFA Európa Liga – 2. kör (1. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
@@ -72,10 +72,10 @@ DESCRIPTION:OTP Bank Liga, 1. forduló
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2026-07-30-6@ftc
-DTSTART;TZID=Europe/Budapest:20260730T200000
-DTEND;TZID=Europe/Budapest:20260730T220000
-SUMMARY:🌍🏆UEFA EL – Ferencvárosi TC
-LOCATION:
+DTSTART;TZID=Europe/Budapest:20260730T203000
+DTEND;TZID=Europe/Budapest:20260730T223000
+SUMMARY:🌍🏆Ferencvárosi TC – FC Twente
+LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:UEFA Európa Liga – 2. kör (2. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
