@@ -96,11 +96,11 @@ DESCRIPTION:UEFA Európa Liga – 3. kör (1. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2026-08-08-9@ftc
-DTSTART;TZID=Europe/Budapest:20260808T180000
-DTEND;TZID=Europe/Budapest:20260808T200000
-SUMMARY:⚽️ETO FC – Ferencvárosi TC
-LOCATION:Győr, ETO Stadion
-DESCRIPTION:OTP Bank Liga, 3. forduló
+DTSTART;TZID=Europe/Budapest:20260808T190000
+DTEND;TZID=Europe/Budapest:20260808T210000
+SUMMARY:🤝⚽️Ferencvárosi TC – Real Madrid
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:Felkészülési mérkőzés
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2026-08-13-10@ftc
