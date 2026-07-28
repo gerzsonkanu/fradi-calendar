@@ -4,8 +4,9 @@ OUTPUT_FILE = "docs/ferencvaros.ics"
 
 MATCHES = [
     # --- Felkészülési mérkőzések ---
-    {"emoji": "🤝⚽️", "competition": "Felkészülési mérkőzés", "date": "2026-06-28", "time": "17:00", "home": "Ferencvárosi TC", "away": "FK Sabah",   "location": "Wörgl, Sportzentrum"},
-    {"emoji": "🤝⚽️", "competition": "Felkészülési mérkőzés", "date": "2026-07-01", "time": "17:30", "home": "Ferencvárosi TC", "away": "Qarabag FK", "location": "Kirchdorf, Leerbergarena"},
+    {"emoji": "🤝⚽️", "competition": "Felkészülési mérkőzés", "date": "2026-06-28", "time": "17:00", "home": "Ferencvárosi TC", "away": "FK Sabah",    "location": "Wörgl, Sportzentrum"},
+    {"emoji": "🤝⚽️", "competition": "Felkészülési mérkőzés", "date": "2026-07-01", "time": "17:30", "home": "Ferencvárosi TC", "away": "Qarabag FK",  "location": "Kirchdorf, Leerbergarena"},
+    {"emoji": "🤝⚽️", "competition": "Felkészülési mérkőzés", "date": "2026-08-08", "time": "19:00", "home": "Ferencvárosi TC", "away": "Real Madrid", "location": "Budapest, Groupama Aréna"},
 
     # --- UEFA Európa Liga – 1. kör ---
     {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 1. kör (1. mérkőzés)", "date": "2026-07-09", "time": "20:00", "home": "FK Vojvodina",    "away": "Ferencvárosi TC", "location": "Novi Sad, Stadion Karadjordje"},
@@ -26,7 +27,6 @@ MATCHES = [
     # --- OTP Bank Liga ---
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 1. forduló",  "date": "2026-07-26", "time": "20:00", "home": "Paksi FC",                 "away": "Ferencvárosi TC",         "location": "Paks, Paksi FC Stadion"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 2. forduló",  "date": "2026-08-02", "time": "20:15", "home": "Ferencvárosi TC",          "away": "Vasas FC",                "location": "Budapest, Groupama Aréna"},
-    {"emoji": "⚽️", "competition": "OTP Bank Liga, 3. forduló",  "date": "2026-08-08", "time": "18:00", "home": "ETO FC",                   "away": "Ferencvárosi TC",         "location": "Győr, ETO Stadion"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 4. forduló",  "date": "2026-08-15", "time": "18:00", "home": "ZTE FC",                   "away": "Ferencvárosi TC",         "location": "Zalaegerszeg, ZTE Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 5. forduló",  "date": "2026-08-22", "time": "18:00", "home": "Ferencvárosi TC",          "away": "Kispest–Honvéd FC",       "location": "Budapest, Groupama Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 6. forduló",  "date": "2026-08-29", "time": "18:00", "home": "Puskás Akadémia FC",       "away": "Ferencvárosi TC",         "location": "Felcsút, Pancho Aréna"},
