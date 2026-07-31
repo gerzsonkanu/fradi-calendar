@@ -87,10 +87,10 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 2. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-08-06-8@ftc
-DTSTART;TZID=Europe/Budapest:20260806T200000
-DTEND;TZID=Europe/Budapest:20260806T220000
-SUMMARY:🌍🏆Ferencvárosi TC – UEFA EL
+UID:fradi-2026-08-05-8@ftc
+DTSTART;TZID=Europe/Budapest:20260805T201500
+DTEND;TZID=Europe/Budapest:20260805T221500
+SUMMARY:🌍🏆Ferencvárosi TC – Górnik Zabrze
 LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:UEFA Európa Liga – 3. kör (1. mérkőzés)
 END:VEVENT
@@ -106,8 +106,8 @@ BEGIN:VEVENT
 UID:fradi-2026-08-13-10@ftc
 DTSTART;TZID=Europe/Budapest:20260813T200000
 DTEND;TZID=Europe/Budapest:20260813T220000
-SUMMARY:🌍🏆UEFA EL – Ferencvárosi TC
-LOCATION:
+SUMMARY:🌍🏆Górnik Zabrze – Ferencvárosi TC
+LOCATION:Zabrze, Arena Zabrze
 DESCRIPTION:UEFA Európa Liga – 3. kör (2. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
