@@ -16,9 +16,9 @@ MATCHES = [
     {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 2. kör (1. mérkőzés)", "date": "2026-07-23", "time": "20:00", "home": "FC Twente",        "away": "Ferencvárosi TC", "location": "Enschede, FC Twente Stadion"},
     {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 2. kör (2. mérkőzés)", "date": "2026-07-30", "time": "20:30", "home": "Ferencvárosi TC", "away": "FC Twente",        "location": "Budapest, Groupama Aréna"},
 
-    # --- UEFA Európa Liga – 3. kör (ha továbbjut) ---
-    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 3. kör (1. mérkőzés)", "date": "2026-08-06", "time": "20:00", "home": "Ferencvárosi TC", "away": "UEFA EL",         "location": "Budapest, Groupama Aréna"},
-    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 3. kör (2. mérkőzés)", "date": "2026-08-13", "time": "20:00", "home": "UEFA EL",         "away": "Ferencvárosi TC", "location": ""},
+    # --- UEFA Európa Liga – 3. kör ---
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 3. kör (1. mérkőzés)", "date": "2026-08-05", "time": "20:15", "home": "Ferencvárosi TC", "away": "Górnik Zabrze",   "location": "Budapest, Groupama Aréna"},
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 3. kör (2. mérkőzés)", "date": "2026-08-13", "time": "20:00", "home": "Górnik Zabrze",   "away": "Ferencvárosi TC", "location": "Zabrze, Arena Zabrze"},
 
     # --- UEFA Európa Liga – Playoff (ha továbbjut) ---
     {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Playoff (1. mérkőzés)", "date": "2026-08-20", "time": "20:00", "home": "Ferencvárosi TC", "away": "UEFA EL",        "location": "Budapest, Groupama Aréna"},
