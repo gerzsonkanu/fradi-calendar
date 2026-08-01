@@ -80,8 +80,8 @@ DESCRIPTION:UEFA Európa Liga – 2. kör (2. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2026-08-02-7@ftc
-DTSTART;TZID=Europe/Budapest:20260802T201500
-DTEND;TZID=Europe/Budapest:20260802T221500
+DTSTART;TZID=Europe/Budapest:20260802T173000
+DTEND;TZID=Europe/Budapest:20260802T193000
 SUMMARY:⚽️Ferencvárosi TC – Vasas FC
 LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 2. forduló
