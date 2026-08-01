@@ -26,7 +26,7 @@ MATCHES = [
 
     # --- OTP Bank Liga ---
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 1. forduló",  "date": "2026-07-26", "time": "20:00", "home": "Paksi FC",                 "away": "Ferencvárosi TC",         "location": "Paks, Paksi FC Stadion"},
-    {"emoji": "⚽️", "competition": "OTP Bank Liga, 2. forduló",  "date": "2026-08-02", "time": "20:15", "home": "Ferencvárosi TC",          "away": "Vasas FC",                "location": "Budapest, Groupama Aréna"},
+    {"emoji": "⚽️", "competition": "OTP Bank Liga, 2. forduló",  "date": "2026-08-02", "time": "17:30", "home": "Ferencvárosi TC",          "away": "Vasas FC",                "location": "Budapest, Groupama Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 4. forduló",  "date": "2026-08-15", "time": "18:00", "home": "ZTE FC",                   "away": "Ferencvárosi TC",         "location": "Zalaegerszeg, ZTE Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 5. forduló",  "date": "2026-08-22", "time": "18:00", "home": "Ferencvárosi TC",          "away": "Kispest–Honvéd FC",       "location": "Budapest, Groupama Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 6. forduló",  "date": "2026-08-29", "time": "18:00", "home": "Puskás Akadémia FC",       "away": "Ferencvárosi TC",         "location": "Felcsút, Pancho Aréna"},
