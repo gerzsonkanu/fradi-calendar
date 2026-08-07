@@ -104,16 +104,16 @@ DESCRIPTION:Felkészülési mérkőzés
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2026-08-13-10@ftc
-DTSTART;TZID=Europe/Budapest:20260813T200000
-DTEND;TZID=Europe/Budapest:20260813T220000
+DTSTART;TZID=Europe/Budapest:20260813T190000
+DTEND;TZID=Europe/Budapest:20260813T210000
 SUMMARY:🌍🏆Górnik Zabrze – Ferencvárosi TC
 LOCATION:Zabrze, Arena Zabrze
 DESCRIPTION:UEFA Európa Liga – 3. kör (2. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-08-15-11@ftc
-DTSTART;TZID=Europe/Budapest:20260815T180000
-DTEND;TZID=Europe/Budapest:20260815T200000
+UID:fradi-2026-08-17-11@ftc
+DTSTART;TZID=Europe/Budapest:20260817T173000
+DTEND;TZID=Europe/Budapest:20260817T193000
 SUMMARY:⚽️ZTE FC – Ferencvárosi TC
 LOCATION:Zalaegerszeg, ZTE Aréna
 DESCRIPTION:OTP Bank Liga, 4. forduló
@@ -186,7 +186,7 @@ BEGIN:VEVENT
 UID:fradi-2026-10-24-20@ftc
 DTSTART;TZID=Europe/Budapest:20261024T180000
 DTEND;TZID=Europe/Budapest:20261024T200000
-SUMMARY:⚽️Ferencvárosi TC – Kisvárda Master Good
+SUMMARY:⚽️Ferencvárosi TC – MTK Budapest
 LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 11. forduló
 END:VEVENT
