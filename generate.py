@@ -20,9 +20,9 @@ MATCHES = [
     {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 3. kör (1. mérkőzés)", "date": "2026-08-05", "time": "20:15", "home": "Ferencvárosi TC", "away": "Górnik Zabrze",   "location": "Budapest, Groupama Aréna"},
     {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – 3. kör (2. mérkőzés)", "date": "2026-08-13", "time": "19:00", "home": "Górnik Zabrze",   "away": "Ferencvárosi TC", "location": "Zabrze, Arena Zabrze"},
 
-    # --- UEFA Európa Liga – Playoff (ha továbbjut) ---
-    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Playoff (1. mérkőzés)", "date": "2026-08-20", "time": "20:00", "home": "Ferencvárosi TC", "away": "UEFA EL",        "location": "Budapest, Groupama Aréna"},
-    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Playoff (2. mérkőzés)", "date": "2026-08-27", "time": "20:00", "home": "UEFA EL",         "away": "Ferencvárosi TC", "location": ""},
+    # --- UEFA Európa Liga – Playoff ---
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Playoff (1. mérkőzés)", "date": "2026-08-20", "time": "19:00", "home": "Trabzonspor",     "away": "Ferencvárosi TC", "location": "Trabzon, Papara Park"},
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Playoff (2. mérkőzés)", "date": "2026-08-27", "time": "20:30", "home": "Ferencvárosi TC", "away": "Trabzonspor",     "location": "Budapest, Ferencváros Stadion"},
 
     # --- OTP Bank Liga ---
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 1. forduló",  "date": "2026-07-26", "time": "20:00", "home": "Paksi FC",                 "away": "Ferencvárosi TC",         "location": "Paks, Paksi FC Stadion"},
@@ -35,7 +35,7 @@ MATCHES = [
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 9. forduló",  "date": "2026-10-10", "time": "18:00", "home": "Ferencvárosi TC",          "away": "DVSC",                    "location": "Budapest, Groupama Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 10. forduló", "date": "2026-10-17", "time": "18:00", "home": "Kisvárda Master Good",     "away": "Ferencvárosi TC",         "location": "Kisvárda, Várkerti Stadion"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 11. forduló", "date": "2026-10-24", "time": "18:00", "home": "Ferencvárosi TC",          "away": "MTK Budapest",            "location": "Budapest, Groupama Aréna"},
-    {"emoji": "⚽️", "competition": "OTP Bank Liga, 12. forduló", "date": "2026-10-31", "time": "18:00", "home": "Ferencvárosi TC",          "away": "Paksi FC",      "location": "Budapest, Groupama Aréna"},
+    {"emoji": "⚽️", "competition": "OTP Bank Liga, 12. forduló", "date": "2026-10-31", "time": "18:00", "home": "Ferencvárosi TC",          "away": "Paksi FC",                "location": "Budapest, Groupama Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 13. forduló", "date": "2026-11-07", "time": "18:00", "home": "Vasas FC",                 "away": "Ferencvárosi TC",         "location": "Budapest, Illovszky Rudolf Stadion"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 14. forduló", "date": "2026-11-21", "time": "18:00", "home": "Ferencvárosi TC",          "away": "Nyíregyháza Spartacus FC","location": "Budapest, Groupama Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 15. forduló", "date": "2026-11-28", "time": "18:00", "home": "MTK Budapest",             "away": "Ferencvárosi TC",         "location": "Budapest, Új Hidegkuti Nándor Stadion"},
