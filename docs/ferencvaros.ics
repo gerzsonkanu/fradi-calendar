@@ -127,15 +127,7 @@ LOCATION:Trabzon, Papara Park
 DESCRIPTION:UEFA Európa Liga – Playoff (1. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-08-22-13@ftc
-DTSTART;TZID=Europe/Budapest:20260822T180000
-DTEND;TZID=Europe/Budapest:20260822T200000
-SUMMARY:⚽️Ferencvárosi TC – Kispest–Honvéd FC
-LOCATION:Budapest, Groupama Aréna
-DESCRIPTION:OTP Bank Liga, 5. forduló
-END:VEVENT
-BEGIN:VEVENT
-UID:fradi-2026-08-27-14@ftc
+UID:fradi-2026-08-27-13@ftc
 DTSTART;TZID=Europe/Budapest:20260827T203000
 DTEND;TZID=Europe/Budapest:20260827T223000
 SUMMARY:🌍🏆Ferencvárosi TC – Trabzonspor
@@ -143,7 +135,7 @@ LOCATION:Budapest, Ferencváros Stadion
 DESCRIPTION:UEFA Európa Liga – Playoff (2. mérkőzés)
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-08-29-15@ftc
+UID:fradi-2026-08-29-14@ftc
 DTSTART;TZID=Europe/Budapest:20260829T180000
 DTEND;TZID=Europe/Budapest:20260829T200000
 SUMMARY:⚽️Puskás Akadémia FC – Ferencvárosi TC
@@ -151,7 +143,7 @@ LOCATION:Felcsút, Pancho Aréna
 DESCRIPTION:OTP Bank Liga, 6. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-09-05-16@ftc
+UID:fradi-2026-09-05-15@ftc
 DTSTART;TZID=Europe/Budapest:20260905T180000
 DTEND;TZID=Europe/Budapest:20260905T200000
 SUMMARY:⚽️Ferencvárosi TC – Újpest FC
@@ -159,7 +151,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 7. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-09-19-17@ftc
+UID:fradi-2026-09-19-16@ftc
 DTSTART;TZID=Europe/Budapest:20260919T180000
 DTEND;TZID=Europe/Budapest:20260919T200000
 SUMMARY:⚽️Nyíregyháza Spartacus FC – Ferencvárosi TC
@@ -167,7 +159,7 @@ LOCATION:Nyíregyháza, Városi Stadion
 DESCRIPTION:OTP Bank Liga, 8. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-10-10-18@ftc
+UID:fradi-2026-10-10-17@ftc
 DTSTART;TZID=Europe/Budapest:20261010T180000
 DTEND;TZID=Europe/Budapest:20261010T200000
 SUMMARY:⚽️Ferencvárosi TC – DVSC
@@ -175,7 +167,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 9. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-10-17-19@ftc
+UID:fradi-2026-10-17-18@ftc
 DTSTART;TZID=Europe/Budapest:20261017T180000
 DTEND;TZID=Europe/Budapest:20261017T200000
 SUMMARY:⚽️Kisvárda Master Good – Ferencvárosi TC
@@ -183,7 +175,7 @@ LOCATION:Kisvárda, Várkerti Stadion
 DESCRIPTION:OTP Bank Liga, 10. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-10-24-20@ftc
+UID:fradi-2026-10-24-19@ftc
 DTSTART;TZID=Europe/Budapest:20261024T180000
 DTEND;TZID=Europe/Budapest:20261024T200000
 SUMMARY:⚽️Ferencvárosi TC – MTK Budapest
@@ -191,7 +183,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 11. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-10-31-21@ftc
+UID:fradi-2026-10-31-20@ftc
 DTSTART;TZID=Europe/Budapest:20261031T180000
 DTEND;TZID=Europe/Budapest:20261031T200000
 SUMMARY:⚽️Ferencvárosi TC – Paksi FC
@@ -199,7 +191,7 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 12. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-11-07-22@ftc
+UID:fradi-2026-11-07-21@ftc
 DTSTART;TZID=Europe/Budapest:20261107T180000
 DTEND;TZID=Europe/Budapest:20261107T200000
 SUMMARY:⚽️Vasas FC – Ferencvárosi TC
@@ -207,7 +199,7 @@ LOCATION:Budapest, Illovszky Rudolf Stadion
 DESCRIPTION:OTP Bank Liga, 13. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-11-21-23@ftc
+UID:fradi-2026-11-21-22@ftc
 DTSTART;TZID=Europe/Budapest:20261121T180000
 DTEND;TZID=Europe/Budapest:20261121T200000
 SUMMARY:⚽️Ferencvárosi TC – Nyíregyháza Spartacus FC
@@ -215,12 +207,20 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 14. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-11-28-24@ftc
+UID:fradi-2026-11-28-23@ftc
 DTSTART;TZID=Europe/Budapest:20261128T180000
 DTEND;TZID=Europe/Budapest:20261128T200000
 SUMMARY:⚽️MTK Budapest – Ferencvárosi TC
 LOCATION:Budapest, Új Hidegkuti Nándor Stadion
 DESCRIPTION:OTP Bank Liga, 15. forduló
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2026-12-02-24@ftc
+DTSTART;TZID=Europe/Budapest:20261202T190000
+DTEND;TZID=Europe/Budapest:20261202T210000
+SUMMARY:⚽️Ferencvárosi TC – Kispest–Honvéd FC
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 5. forduló
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2026-12-05-25@ftc
