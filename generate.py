@@ -24,6 +24,16 @@ MATCHES = [
     {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Playoff (1. mérkőzés)", "date": "2026-08-20", "time": "19:00", "home": "Trabzonspor",     "away": "Ferencvárosi TC", "location": "Trabzon, Papara Park"},
     {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Playoff (2. mérkőzés)", "date": "2026-08-27", "time": "20:30", "home": "Ferencvárosi TC", "away": "Trabzonspor",     "location": "Budapest, Ferencváros Stadion"},
 
+    # --- UEFA Európa Liga – Ligaszakasz ---
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Ligaszakasz, 1. forduló", "date": "2026-09-17", "time": "20:00", "home": "Ferencvárosi TC", "away": "Juventus",           "location": "Budapest, Groupama Aréna"},
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Ligaszakasz, 2. forduló", "date": "2026-10-15", "time": "20:00", "home": "AC Milan",         "away": "Ferencvárosi TC",   "location": "Milánó, San Siro"},
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Ligaszakasz, 3. forduló", "date": "2026-10-22", "time": "20:00", "home": "Ferencvárosi TC", "away": "Viktoria Plzen",     "location": "Budapest, Groupama Aréna"},
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Ligaszakasz, 4. forduló", "date": "2026-11-05", "time": "20:00", "home": "Celtic FC",        "away": "Ferencvárosi TC",   "location": "Glasgow, Celtic Park"},
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Ligaszakasz, 5. forduló", "date": "2026-11-26", "time": "20:00", "home": "Ferencvárosi TC", "away": "NK Celje",           "location": "Budapest, Groupama Aréna"},
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Ligaszakasz, 6. forduló", "date": "2026-12-10", "time": "20:00", "home": "Lech Poznan",      "away": "Ferencvárosi TC",   "location": "Poznań, Stadion Miejski"},
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Ligaszakasz, 7. forduló", "date": "2027-01-21", "time": "20:00", "home": "Ferencvárosi TC", "away": "SCU Torreense",      "location": "Budapest, Groupama Aréna"},
+    {"emoji": "🌍🏆", "competition": "UEFA Európa Liga – Ligaszakasz, 8. forduló", "date": "2027-01-28", "time": "20:00", "home": "TSG 1899 Hoffenheim", "away": "Ferencvárosi TC","location": "Sinsheim, PreZero Arena"},
+
     # --- OTP Bank Liga ---
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 1. forduló",  "date": "2026-07-26", "time": "20:00", "home": "Paksi FC",                 "away": "Ferencvárosi TC",         "location": "Paks, Paksi FC Stadion"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 2. forduló",  "date": "2026-08-02", "time": "17:30", "home": "Ferencvárosi TC",          "away": "Vasas FC",                "location": "Budapest, Groupama Aréna"},
@@ -38,7 +48,7 @@ MATCHES = [
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 11. forduló", "date": "2026-10-24", "time": "18:00", "home": "Ferencvárosi TC",          "away": "MTK Budapest",            "location": "Budapest, Groupama Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 12. forduló", "date": "2026-10-31", "time": "18:00", "home": "Ferencvárosi TC",          "away": "Paksi FC",                "location": "Budapest, Groupama Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 13. forduló", "date": "2026-11-07", "time": "18:00", "home": "Vasas FC",                 "away": "Ferencvárosi TC",         "location": "Budapest, Illovszky Rudolf Stadion"},
-    {"emoji": "⚽️", "competition": "OTP Bank Liga, 14. forduló", "date": "2026-11-21", "time": "18:00", "home": "Ferencvárosi TC",          "away": "Nyíregyháza Spartacus FC","location": "Budapest, Groupama Aréna"},
+    {"emoji": "⚽️", "competition": "OTP Bank Liga, 14. forduló", "date": "2026-11-21", "time": "18:00", "home": "Ferencvárosi TC",          "away": "ETO FC",                  "location": "Budapest, Groupama Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 15. forduló", "date": "2026-11-28", "time": "18:00", "home": "MTK Budapest",             "away": "Ferencvárosi TC",         "location": "Budapest, Új Hidegkuti Nándor Stadion"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 16. forduló", "date": "2026-12-05", "time": "18:00", "home": "Ferencvárosi TC",          "away": "ETO FC",                  "location": "Budapest, Groupama Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 17. forduló", "date": "2026-12-12", "time": "18:00", "home": "Kispest–Honvéd FC",        "away": "Ferencvárosi TC",         "location": "Budapest, Bozsik Aréna"},
