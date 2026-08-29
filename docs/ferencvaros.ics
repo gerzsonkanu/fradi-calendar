@@ -160,10 +160,10 @@ DESCRIPTION:OTP Bank Liga, 7. forduló
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2026-09-17-17@ftc
-DTSTART;TZID=Europe/Budapest:20260917T200000
-DTEND;TZID=Europe/Budapest:20260917T220000
-SUMMARY:🌍🏆Ferencvárosi TC – Juventus
-LOCATION:Budapest, Groupama Aréna
+DTSTART;TZID=Europe/Budapest:20260917T210000
+DTEND;TZID=Europe/Budapest:20260917T230000
+SUMMARY:🌍🏆Celtic FC – Ferencvárosi TC
+LOCATION:Glasgow, Celtic Park
 DESCRIPTION:UEFA Európa Liga – Ligaszakasz, 1. forduló
 END:VEVENT
 BEGIN:VEVENT
@@ -184,10 +184,10 @@ DESCRIPTION:OTP Bank Liga, 9. forduló
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2026-10-15-20@ftc
-DTSTART;TZID=Europe/Budapest:20261015T200000
-DTEND;TZID=Europe/Budapest:20261015T220000
-SUMMARY:🌍🏆AC Milan – Ferencvárosi TC
-LOCATION:Milánó, San Siro
+DTSTART;TZID=Europe/Budapest:20261015T210000
+DTEND;TZID=Europe/Budapest:20261015T230000
+SUMMARY:🌍🏆Ferencvárosi TC – FC Viktoria Plzeň
+LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:UEFA Európa Liga – Ligaszakasz, 2. forduló
 END:VEVENT
 BEGIN:VEVENT
@@ -200,9 +200,9 @@ DESCRIPTION:OTP Bank Liga, 10. forduló
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2026-10-22-22@ftc
-DTSTART;TZID=Europe/Budapest:20261022T200000
-DTEND;TZID=Europe/Budapest:20261022T220000
-SUMMARY:🌍🏆Ferencvárosi TC – Viktoria Plzen
+DTSTART;TZID=Europe/Budapest:20261022T184500
+DTEND;TZID=Europe/Budapest:20261022T204500
+SUMMARY:🌍🏆Ferencvárosi TC – SCU Torreense
 LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:UEFA Európa Liga – Ligaszakasz, 3. forduló
 END:VEVENT
@@ -224,10 +224,10 @@ DESCRIPTION:OTP Bank Liga, 12. forduló
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2026-11-05-25@ftc
-DTSTART;TZID=Europe/Budapest:20261105T200000
-DTEND;TZID=Europe/Budapest:20261105T220000
-SUMMARY:🌍🏆Celtic FC – Ferencvárosi TC
-LOCATION:Glasgow, Celtic Park
+DTSTART;TZID=Europe/Budapest:20261105T184500
+DTEND;TZID=Europe/Budapest:20261105T204500
+SUMMARY:🌍🏆AC Milan – Ferencvárosi TC
+LOCATION:Milánó, San Siro
 DESCRIPTION:UEFA Európa Liga – Ligaszakasz, 4. forduló
 END:VEVENT
 BEGIN:VEVENT
@@ -248,8 +248,8 @@ DESCRIPTION:OTP Bank Liga, 14. forduló
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2026-11-26-28@ftc
-DTSTART;TZID=Europe/Budapest:20261126T200000
-DTEND;TZID=Europe/Budapest:20261126T220000
+DTSTART;TZID=Europe/Budapest:20261126T210000
+DTEND;TZID=Europe/Budapest:20261126T230000
 SUMMARY:🌍🏆Ferencvárosi TC – NK Celje
 LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:UEFA Európa Liga – Ligaszakasz, 5. forduló
@@ -280,9 +280,9 @@ DESCRIPTION:OTP Bank Liga, 16. forduló
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2026-12-10-32@ftc
-DTSTART;TZID=Europe/Budapest:20261210T200000
-DTEND;TZID=Europe/Budapest:20261210T220000
-SUMMARY:🌍🏆Lech Poznan – Ferencvárosi TC
+DTSTART;TZID=Europe/Budapest:20261210T210000
+DTEND;TZID=Europe/Budapest:20261210T230000
+SUMMARY:🌍🏆KKS Lech Poznań – Ferencvárosi TC
 LOCATION:Poznań, Stadion Miejski
 DESCRIPTION:UEFA Európa Liga – Ligaszakasz, 6. forduló
 END:VEVENT
@@ -304,16 +304,16 @@ DESCRIPTION:OTP Bank Liga, 18. forduló
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2027-01-21-35@ftc
-DTSTART;TZID=Europe/Budapest:20270121T200000
-DTEND;TZID=Europe/Budapest:20270121T220000
-SUMMARY:🌍🏆Ferencvárosi TC – SCU Torreense
+DTSTART;TZID=Europe/Budapest:20270121T184500
+DTEND;TZID=Europe/Budapest:20270121T204500
+SUMMARY:🌍🏆Ferencvárosi TC – Juventus
 LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:UEFA Európa Liga – Ligaszakasz, 7. forduló
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2027-01-28-36@ftc
-DTSTART;TZID=Europe/Budapest:20270128T200000
-DTEND;TZID=Europe/Budapest:20270128T220000
+DTSTART;TZID=Europe/Budapest:20270128T210000
+DTEND;TZID=Europe/Budapest:20270128T230000
 SUMMARY:🌍🏆TSG 1899 Hoffenheim – Ferencvárosi TC
 LOCATION:Sinsheim, PreZero Arena
 DESCRIPTION:UEFA Európa Liga – Ligaszakasz, 8. forduló
