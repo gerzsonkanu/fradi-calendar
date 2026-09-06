@@ -46,7 +46,7 @@ MATCHES = [
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 6. forduló",  "date": "2026-08-30", "time": "19:00", "home": "Puskás Akadémia FC",       "away": "Ferencvárosi TC",         "location": "Felcsút, Pancho Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 7. forduló",  "date": "2026-09-06", "time": "17:45", "home": "Ferencvárosi TC",          "away": "Újpest FC",               "location": "Budapest, Groupama Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 8. forduló",  "date": "2026-09-20", "time": "19:30", "home": "Nyíregyháza Spartacus FC", "away": "Ferencvárosi TC",         "location": "Nyíregyháza, Városi Stadion"},
-    {"emoji": "⚽️", "competition": "OTP Bank Liga, 9. forduló",  "date": "2026-10-10", "time": "18:00", "home": "Ferencvárosi TC",          "away": "DVSC",                    "location": "Budapest, Groupama Aréna"},
+    {"emoji": "⚽️", "competition": "OTP Bank Liga, 9. forduló",  "date": "2026-10-10", "time": "17:00", "home": "Ferencvárosi TC",          "away": "DVSC",                    "location": "Budapest, Groupama Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 10. forduló", "date": "2026-10-17", "time": "18:00", "home": "Kisvárda Master Good",     "away": "Ferencvárosi TC",         "location": "Kisvárda, Várkerti Stadion"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 11. forduló", "date": "2026-10-24", "time": "18:00", "home": "Ferencvárosi TC",          "away": "MTK Budapest",            "location": "Budapest, Groupama Aréna"},
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 12. forduló", "date": "2026-10-31", "time": "18:00", "home": "Ferencvárosi TC",          "away": "Paksi FC",                "location": "Budapest, Groupama Aréna"},
