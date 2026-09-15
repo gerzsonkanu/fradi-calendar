@@ -175,9 +175,9 @@ LOCATION:Glasgow, Celtic Park
 DESCRIPTION:UEFA Európa Liga – Ligaszakasz, 1. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-09-19-19@ftc
-DTSTART;TZID=Europe/Budapest:20260919T180000
-DTEND;TZID=Europe/Budapest:20260919T200000
+UID:fradi-2026-09-20-19@ftc
+DTSTART;TZID=Europe/Budapest:20260920T193000
+DTEND;TZID=Europe/Budapest:20260920T213000
 SUMMARY:⚽️Nyíregyháza Spartacus FC – Ferencvárosi TC
 LOCATION:Nyíregyháza, Városi Stadion
 DESCRIPTION:OTP Bank Liga, 8. forduló
