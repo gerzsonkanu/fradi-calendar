@@ -271,28 +271,28 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:UEFA Európa Liga – Ligaszakasz, 5. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-11-28-31@ftc
-DTSTART;TZID=Europe/Budapest:20261128T180000
-DTEND;TZID=Europe/Budapest:20261128T200000
-SUMMARY:⚽️MTK Budapest – Ferencvárosi TC
-LOCATION:Budapest, Új Hidegkuti Nándor Stadion
+UID:fradi-2026-11-29-31@ftc
+DTSTART;TZID=Europe/Budapest:20261129T141500
+DTEND;TZID=Europe/Budapest:20261129T161500
+SUMMARY:⚽️Ferencvárosi TC – ZTE FC
+LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 15. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-12-02-32@ftc
-DTSTART;TZID=Europe/Budapest:20261202T190000
-DTEND;TZID=Europe/Budapest:20261202T210000
+UID:fradi-2026-12-03-32@ftc
+DTSTART;TZID=Europe/Budapest:20261203T174500
+DTEND;TZID=Europe/Budapest:20261203T194500
 SUMMARY:⚽️Ferencvárosi TC – Kispest–Honvéd FC
 LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 5. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-12-05-33@ftc
-DTSTART;TZID=Europe/Budapest:20261205T180000
-DTEND;TZID=Europe/Budapest:20261205T200000
-SUMMARY:⚽️Ferencvárosi TC – ETO FC
-LOCATION:Budapest, Groupama Aréna
-DESCRIPTION:OTP Bank Liga, 16. forduló
+UID:fradi-2026-12-06-33@ftc
+DTSTART;TZID=Europe/Budapest:20261206T190000
+DTEND;TZID=Europe/Budapest:20261206T210000
+SUMMARY:⚽️Kispest–Honvéd FC – Ferencvárosi TC
+LOCATION:Budapest, Bozsik Aréna
+DESCRIPTION:OTP Bank Liga, 17. forduló
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2026-12-10-34@ftc
@@ -303,17 +303,17 @@ LOCATION:Poznań, Stadion Miejski
 DESCRIPTION:UEFA Európa Liga – Ligaszakasz, 6. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2026-12-12-35@ftc
-DTSTART;TZID=Europe/Budapest:20261212T180000
-DTEND;TZID=Europe/Budapest:20261212T200000
-SUMMARY:⚽️Kispest–Honvéd FC – Ferencvárosi TC
-LOCATION:Budapest, Bozsik Aréna
-DESCRIPTION:OTP Bank Liga, 17. forduló
+UID:fradi-2026-12-14-35@ftc
+DTSTART;TZID=Europe/Budapest:20261214T193000
+DTEND;TZID=Europe/Budapest:20261214T213000
+SUMMARY:⚽️Ferencvárosi TC – Puskás Akadémia FC
+LOCATION:Budapest, Groupama Aréna
+DESCRIPTION:OTP Bank Liga, 16. forduló
 END:VEVENT
 BEGIN:VEVENT
 UID:fradi-2026-12-19-36@ftc
-DTSTART;TZID=Europe/Budapest:20261219T180000
-DTEND;TZID=Europe/Budapest:20261219T200000
+DTSTART;TZID=Europe/Budapest:20261219T183000
+DTEND;TZID=Europe/Budapest:20261219T203000
 SUMMARY:⚽️Újpest FC – Ferencvárosi TC
 LOCATION:Budapest, Szusza Ferenc Stadion
 DESCRIPTION:OTP Bank Liga, 18. forduló
