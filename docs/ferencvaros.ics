@@ -439,7 +439,15 @@ LOCATION:Budapest, Groupama Aréna
 DESCRIPTION:OTP Bank Liga, 31. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-05-15-52@ftc
+UID:fradi-2027-05-08-52@ftc
+DTSTART;TZID=Europe/Budapest:20270508T193000
+DTEND;TZID=Europe/Budapest:20270508T213000
+SUMMARY:🇭🇺🏆Hazai csapat – Vendég csapat
+LOCATION:Budapest, Puskás Aréna
+DESCRIPTION:MOL Magyar Kupa – döntő
+END:VEVENT
+BEGIN:VEVENT
+UID:fradi-2027-05-15-53@ftc
 DTSTART;TZID=Europe/Budapest:20270515T180000
 DTEND;TZID=Europe/Budapest:20270515T200000
 SUMMARY:⚽️Kisvárda Master Good – Ferencvárosi TC
@@ -447,7 +455,7 @@ LOCATION:Kisvárda, Várkerti Stadion
 DESCRIPTION:OTP Bank Liga, 32. forduló
 END:VEVENT
 BEGIN:VEVENT
-UID:fradi-2027-05-22-53@ftc
+UID:fradi-2027-05-22-54@ftc
 DTSTART;TZID=Europe/Budapest:20270522T180000
 DTEND;TZID=Europe/Budapest:20270522T200000
 SUMMARY:⚽️Ferencvárosi TC – DVSC
