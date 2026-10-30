@@ -37,7 +37,7 @@ MATCHES = [
     # --- MOL Magyar Kupa ---
     {"emoji": "🇭🇺🏆", "competition": "MOL Magyar Kupa", "date": "2026-09-12", "time": "13:00", "home": "DEAC", "away": "Ferencvárosi TC", "location": "Debrecen, Debreceni Egyetemi AC Sporttelep"},
     {"emoji": "🇭🇺🏆", "competition": "MOL Magyar Kupa", "date": "2026-10-28", "time": "12:30", "home": "Bicskei TC", "away": "Ferencvárosi TC", "location": "Bicske, Bicskei TC Sporttelep"},
-    {"emoji": "🇭🇺🏆", "competition": "MOL Magyar Kupa – döntő", "date": "2027-05-08", "time": "19:30", "home":, "away": "Kupadöntő", "location": "Budapest, Puskás Aréna"},
+    {"emoji": "🇭🇺🏆", "competition": "MOL Magyar Kupa – döntő", "date": "2027-05-08", "time": "19:30", "home": "Hazai csapat", "away": "Vendég csapat", "location": "Budapest, Puskás Aréna"},
 
     # --- OTP Bank Liga ---
     {"emoji": "⚽️", "competition": "OTP Bank Liga, 1. forduló",  "date": "2026-07-26", "time": "20:00", "home": "Paksi FC",                 "away": "Ferencvárosi TC",         "location": "Paks, Paksi FC Stadion"},
