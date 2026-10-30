@@ -442,7 +442,7 @@ BEGIN:VEVENT
 UID:fradi-2027-05-08-52@ftc
 DTSTART;TZID=Europe/Budapest:20270508T193000
 DTEND;TZID=Europe/Budapest:20270508T213000
-SUMMARY:🇭🇺🏆Hazai csapat – Vendég csapat
+SUMMARY:🇭🇺🏆 DöntőMagyar Kupa – Döntő
 LOCATION:Budapest, Puskás Aréna
 DESCRIPTION:MOL Magyar Kupa – döntő
 END:VEVENT
